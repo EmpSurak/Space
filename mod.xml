@@ -1,0 +1,36 @@
+<? xml version="1.0" ?>
+<Mod>
+    <Id>com-surak-space</Id> 
+    <Name>Space</Name> 
+
+    <Category>Level</Category>
+
+    <Thumbnail>Data/Images/space/thumb.jpg</Thumbnail>
+    <PreviewImage>Data/Images/space/thumb.jpg</PreviewImage>
+
+    <Description>Space</Description>
+    <Version>0.0.1</Version>
+    <Author>Surak</Author>
+    <Tag>Scripting</Tag>
+    <Tag>Level</Tag>
+
+    <SupportedVersion>*</SupportedVersion>
+    <NeedsRestart>false</NeedsRestart>
+
+    <ModDependency>
+       <Id>com-surak-timed-execution</Id>
+       <Version>1.0.0</Version> 
+    </ModDependency>
+
+    <ModDependency>
+       <Id>drika-hotspot</Id>
+       <Version>0.1.0</Version> 
+    </ModDependency>
+
+    <ModDependency>
+       <Id>simple-shapes</Id>
+       <Version>1.0</Version> 
+    </ModDependency>
+
+    <Level title="Space" thumbnail="UI/mainmenu/images/space.png">space.xml</Level>
+</Mod>
