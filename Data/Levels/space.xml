@@ -34,7 +34,7 @@
     <RayToSun r0="0.121363" r1="0.062051" r2="0.990667" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-8.41962" t1="643.001" t2="-57.3371" s0="1" s1="1" s2="1" q0="-0.172468" q1="0.822029" q2="-0.432536" q3="-0.327774" euler_x="-2.17285" euler_y="-0.758835" euler_z="-3.14159" id="0">
+    <CameraObject t0="176.466" t1="688.477" t2="-76.6746" s0="1" s1="1" s2="1" q0="0.212727" q1="-0.757667" q2="0.298473" q3="0.540002" euler_x="-2.39106" euler_y="-1.23842" euler_z="-3.14159" id="0">
         <parameters />
     </CameraObject>
     <ActorObject t0="0" t1="616.414" t2="0" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="2" type_file="Data/Objects/IGF_Characters/IGF_TurnerActor.xml" pc_script_path="playercontrol.as" is_player="1">
@@ -98,19 +98,19 @@
     <Decal t0="17.1325" t1="606.8" t2="27.961" s0="47.4708" s1="18.2101" s2="84.2043" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="8" type_file="Data/Objects/Decals/space/rock2.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </Decal>
-    <Decal t0="-88.7324" t1="597.18" t2="-99.4594" s0="23.2096" s1="12.7966" s2="34.4988" q0="-0.0196486" q1="-0.0312956" q2="0.0284704" q3="0.998912" euler_x="-0.0411256" euler_y="-0.0614429" euler_z="0.0582514" id="9" type_file="Data/Objects/Decals/space/rock1.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+    <Decal t0="-88.7324" t1="597.18" t2="-99.4594" s0="23.2096" s1="12.7966" s2="34.4988" q0="-0.0196486" q1="-0.0312956" q2="0.0284704" q3="0.998912" euler_x="-0.0411256" euler_y="-0.061443" euler_z="0.0582515" id="9" type_file="Data/Objects/Decals/space/rock1.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </Decal>
     <Decal t0="-2.4068" t1="618.524" t2="-16.8785" s0="60.1623" s1="19.0311" s2="60.1623" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="10" type_file="Data/Objects/Decals/space/rock3.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </Decal>
-    <Decal t0="-48.5823" t1="604" t2="-32.8234" s0="73.9997" s1="19.0313" s2="75.4068" q0="-0.0545084" q1="0.0048607" q2="0.0333054" q3="0.997946" euler_x="-0.108693" euler_y="0.0133327" euler_z="0.0659979" id="11" type_file="Data/Objects/Decals/space/rock3.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+    <Decal t0="-48.5823" t1="604" t2="-32.8234" s0="73.9997" s1="19.0313" s2="75.4068" q0="-0.0545084" q1="0.0048607" q2="0.0333054" q3="0.997946" euler_x="-0.108693" euler_y="0.0133327" euler_z="0.0659978" id="11" type_file="Data/Objects/Decals/space/rock3.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </Decal>
     <Decal t0="-32.5446" t1="614.484" t2="3.06642" s0="29.9139" s1="10.4007" s2="29.9139" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="12" type_file="Data/Objects/Decals/space/rock4.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </Decal>
-    <Decal t0="-64.7821" t1="613.782" t2="-8.29379" s0="29.9139" s1="17.0728" s2="62.6625" q0="0" q1="0.409283" q2="0" q3="0.912408" euler_x="0" euler_y="0.843336" euler_z="0" id="13" type_file="Data/Objects/Decals/space/rock4.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+    <Decal t0="-64.7821" t1="613.782" t2="-8.29379" s0="29.9139" s1="17.0728" s2="62.6625" q0="0" q1="0.409283" q2="0" q3="0.912408" euler_x="0" euler_y="0.843337" euler_z="0" id="13" type_file="Data/Objects/Decals/space/rock4.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </Decal>
     <Decal t0="-74.3631" t1="610.982" t2="7.13185" s0="50.1318" s1="24.8999" s2="50.1318" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="14" type_file="Data/Objects/Decals/space/rock1.xml" color_r="1" color_g="1" color_b="1" overbright="0">
@@ -125,12 +125,74 @@
     <Decal t0="17.1325" t1="606.8" t2="-31.1191" s0="47.4708" s1="18.2101" s2="84.2043" q0="0" q1="0.225106" q2="0" q3="0.974334" euler_x="0" euler_y="0.454104" euler_z="0" id="17" type_file="Data/Objects/Decals/space/rock2.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </Decal>
+    <Decal t0="-8.39174" t1="611.826" t2="50.0839" s0="48.1229" s1="12.2579" s2="48.1229" q0="0" q1="-0.881502" q2="0" q3="0.47218" euler_x="-3.14159" euler_y="-0.983525" euler_z="3.14159" id="18" type_file="Data/Objects/Decals/space/rock5.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-15.3993" t1="609.816" t2="-49.7557" s0="100.872" s1="12.2579" s2="79.223" q0="0" q1="0.234755" q2="0" q3="0.972055" euler_x="0" euler_y="0.473933" euler_z="0" id="19" type_file="Data/Objects/Decals/space/rock5.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-45.1123" t1="607.161" t2="-78.7054" s0="32.0942" s1="10.7365" s2="32.0942" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="20" type_file="Data/Objects/Decals/space/rock6.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-56.9189" t1="607.161" t2="-56.4258" s0="32.0942" s1="10.7365" s2="32.0942" q0="0.00327307" q1="-0.11132" q2="0.0200821" q3="0.993578" euler_x="0.00208472" euler_y="-0.223191" euler_z="0.0401848" id="21" type_file="Data/Objects/Decals/space/rock6.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-23.5183" t1="606.42" t2="-90.3844" s0="47.4708" s1="18.2101" s2="47.4708" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="22" type_file="Data/Objects/Decals/space/rock2.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-31.4267" t1="607.161" t2="54.757" s0="59.2081" s1="10.7365" s2="32.0942" q0="0" q1="0.970115" q2="0" q3="0.242645" euler_x="3.14159" euler_y="0.490183" euler_z="3.14159" id="23" type_file="Data/Objects/Decals/space/rock6.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-59.0194" t1="612.469" t2="40.1525" s0="60.1623" s1="19.0311" s2="60.1623" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="24" type_file="Data/Objects/Decals/space/rock3.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="58.2212" t1="607.144" t2="8.16869" s0="92.3557" s1="24.7027" s2="87.8468" q0="0" q1="0.398486" q2="0" q3="0.917174" euler_x="0" euler_y="0.819731" euler_z="0" id="25" type_file="Data/Objects/Decals/space/rock2.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="48.869" t1="591.21" t2="-53.7301" s0="89.2796" s1="50.7449" s2="89.2796" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="26" type_file="Data/Objects/Decals/space/rock7.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-67.5181" t1="594.913" t2="-92.0677" s0="89.2796" s1="50.7449" s2="89.2796" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="27" type_file="Data/Objects/Decals/space/rock7.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-85.5492" t1="607.475" t2="-54.7504" s0="35.3407" s1="13.2178" s2="35.3407" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="28" type_file="Data/Objects/Decals/space/rock8.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-85.5492" t1="607.475" t2="25.519" s0="35.3407" s1="13.2178" s2="35.3407" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="29" type_file="Data/Objects/Decals/space/rock8.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-126.431" t1="577.019" t2="-33.6678" s0="125.034" s1="84.1187" s2="125.034" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="30" type_file="Data/Objects/Decals/space/rock8.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="121.446" t1="577.019" t2="-33.6678" s0="125.034" s1="84.1187" s2="125.034" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="31" type_file="Data/Objects/Decals/space/rock8.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-115.46" t1="599.492" t2="21.7197" s0="39.8044" s1="19.5212" s2="39.8044" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="32" type_file="Data/Objects/Decals/space/rock9.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="16.6495" t1="600.743" t2="-98.6177" s0="71.2975" s1="26.1804" s2="71.2975" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="33" type_file="Data/Objects/Decals/space/rock7.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="52.6498" t1="594.443" t2="-94.9264" s0="94.8248" s1="44.0193" s2="94.8248" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="34" type_file="Data/Objects/Decals/space/rock1.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="113.383" t1="602.228" t2="-90.1296" s0="43.3099" s1="43.3099" s2="43.3099" q0="0" q1="0.271082" q2="0" q3="0.962556" euler_x="0" euler_y="0.549033" euler_z="0" id="35" type_file="Data/Objects/Decals/space/rock4.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="87.6892" t1="586.614" t2="-93.2139" s0="121.106" s1="78.6872" s2="121.106" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="36" type_file="Data/Objects/Decals/space/rock3.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Sphere Crete Chipped" path="Data/Objects/Crete/sphere_crete_chipped.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/sphere_crete_chipped.png" />
     <SpawnerItem display_name="Sphere Crete Whole" path="Data/Objects/Crete/sphere_crete_whole.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/sphere_crete_whole.png" />
-    <SpawnerItem display_name="rock3.xml" path="Data/Objects/Decals/space/rock3.xml" thumbnail_path="empty_placeholder.png" />
-    <SpawnerItem display_name="rock4.xml" path="Data/Objects/Decals/space/rock4.xml" thumbnail_path="empty_placeholder.png" />
-    <SpawnerItem display_name="rock1.xml" path="Data/Objects/Decals/space/rock1.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="rock2.xml" path="Data/Objects/Decals/space/rock2.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="rock5.xml" path="Data/Objects/Decals/space/rock5.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="rock6.xml" path="Data/Objects/Decals/space/rock6.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="rock8.xml" path="Data/Objects/Decals/space/rock8.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="rock9.xml" path="Data/Objects/Decals/space/rock9.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="rock7.xml" path="Data/Objects/Decals/space/rock7.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="rock1.xml" path="Data/Objects/Decals/space/rock1.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="rock4.xml" path="Data/Objects/Decals/space/rock4.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="rock3.xml" path="Data/Objects/Decals/space/rock3.xml" thumbnail_path="empty_placeholder.png" />
 </RecentItems>
