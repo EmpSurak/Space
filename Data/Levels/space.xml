@@ -34,7 +34,7 @@
     <RayToSun r0="0.121363" r1="0.062051" r2="0.990667" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-144.713" t1="703.116" t2="1.79448" s0="1" s1="1" s2="1" q0="0.255926" q1="0.64655" q2="-0.244906" q3="0.675645" euler_x="0.724176" euler_y="1.52679" euler_z="0" id="0">
+    <CameraObject t0="-33.6183" t1="686.43" t2="2.99787" s0="1" s1="1" s2="1" q0="0.296565" q1="0.546781" q2="-0.21541" q3="0.75278" euler_x="0.750577" euler_y="1.25638" euler_z="0" id="0">
         <parameters />
     </CameraObject>
     <Group t0="21.7934" t1="29.1901" t2="19.6553" s0="1274.37" s1="1287.57" s2="1270.01" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1" version="1">
@@ -324,7 +324,7 @@
             <Color label="Fur patches" channel="3" red="1" green="1" blue="1" />
         </Palette>
     </ActorObject>
-    <EnvObject t0="-22.0348" t1="604.677" t2="-10.3453" s0="5.7969" s1="5.7969" s2="5.7969" q0="-0.0258181" q1="-0.0125048" q2="-0.0438856" q3="0.998624" euler_x="-0.0505078" euler_y="-0.0272446" euler_z="-0.0871474" id="84" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_boulder.xml">
+    <EnvObject t0="-22.0725" t1="604.253" t2="-10.3238" s0="5.7969" s1="5.7969" s2="5.7969" q0="0.0129358" q1="-0.0461283" q2="-0.0647036" q3="0.996754" euler_x="0.0318925" euler_y="-0.0904062" euler_z="-0.131089" id="84" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_boulder.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="24.7235" t1="612.318" t2="26.01" s0="1.92686" s1="1.92686" s2="1.92686" q0="-0.68419" q1="0.612529" q2="-0.334777" q3="-0.211233" euler_x="-2.96705" euler_y="-0.799309" euler_z="-1.53426" id="85" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_boulder.xml">
@@ -387,6 +387,48 @@
     <EnvObject t0="125.623" t1="569.284" t2="5.06061" s0="48.3315" s1="19.5193" s2="31.1905" q0="0.0945138" q1="0.983912" q2="-0.0566857" q3="0.140607" euler_x="-3.05276" euler_y="0.291516" euler_z="2.96311" id="104" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_boulder.xml">
         <parameters />
     </EnvObject>
+    <EnvObject t0="-70.0693" t1="607.309" t2="21.6338" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="105" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_block.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-83.2314" t1="588.672" t2="-84.0496" s0="1.94438" s1="2.8768" s2="1.94438" q0="-0.00902472" q1="-0.0992073" q2="0.882652" q3="0.459345" euler_x="-0.184996" euler_y="-0.0752805" euler_z="2.18888" id="106" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_capital.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="240.637" t1="556.363" t2="-31.1391" s0="5.85024" s1="5.85024" s2="5.85024" q0="-0.188275" q1="0.717859" q2="0.567567" q3="0.35651" euler_x="1.71889" euler_y="0.811855" euler_z="2.94506" id="107" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_pillar.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="239.258" t1="556.406" t2="-28.7285" s0="8.77693" s1="5.85025" s2="5.85032" q0="-0.575736" q1="0.414331" q2="0.149025" q3="0.688949" euler_x="-1.58018" euler_y="0.836801" euler_z="-0.417735" id="108" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_pillar.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="269.082" t1="535.798" t2="-62.8648" s0="8.77693" s1="5.85025" s2="5.85032" q0="-0.669113" q1="0.326841" q2="-0.0769251" q3="0.662982" euler_x="-1.68662" euler_y="0.336766" euler_z="-0.608319" id="109" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_pillar.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="240.689" t1="537.685" t2="-131.066" s0="3.39819" s1="3.39819" s2="3.39819" q0="-0.148415" q1="0.0126083" q2="-0.228941" q3="0.961978" euler_x="-0.295894" euler_y="-0.0437125" euler_z="-0.460771" id="110" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_block.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-52.1522" t1="604.295" t2="-21.2632" s0="3.2757" s1="3.2757" s2="3.2757" q0="0.474922" q1="-0.410916" q2="-0.544154" q3="0.556325" euler_x="1.35761" euler_y="0.0596914" euler_z="-1.50053" id="111" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_slope.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-11.3375" t1="603.283" t2="-73.4594" s0="3.27564" s1="5.02489" s2="3.27571" q0="0.570939" q1="-0.591387" q2="-0.35564" q3="0.444764" euler_x="1.93261" euler_y="-0.120247" euler_z="-1.52287" id="112" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_slope.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="22.5973" t1="601.328" t2="95.3786" s0="3.27564" s1="5.02489" s2="3.27571" q0="0.521702" q1="-0.517452" q2="-0.463583" q3="0.495138" euler_x="1.65077" euler_y="-0.0287203" euler_z="-1.53611" id="113" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_slope.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="61.4692" t1="542.635" t2="-212.413" s0="25.8947" s1="25.8948" s2="31.2727" q0="-0.267268" q1="0.824052" q2="0.461009" q3="0.192297" euler_x="2.22227" euler_y="0.598437" euler_z="-2.8174" id="114" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_boulder.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-3.8419" t1="582.421" t2="-154.465" s0="5.02429" s1="5.0242" s2="8.79862" q0="-0.401934" q1="0.404079" q2="0.533964" q3="-0.624538" euler_x="1.21179" euler_y="-0.0755612" euler_z="-1.46711" id="115" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_pillar.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="57.6981" t1="603.028" t2="5.83379" s0="5.02429" s1="5.0242" s2="8.79862" q0="-0.401934" q1="0.404079" q2="0.533964" q3="-0.624538" euler_x="1.21179" euler_y="-0.0755612" euler_z="-1.46711" id="116" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_pillar.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="72.3564" t1="594.735" t2="81.9091" s0="5.02429" s1="5.0242" s2="8.79862" q0="-0.656566" q1="-0.664289" q2="0.220971" q3="0.28072" euler_x="-2.41478" euler_y="-0.0828884" euler_z="1.55094" id="117" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_pillar.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="22.2209" t1="604.074" t2="31.9724" s0="7.58366" s1="10.3516" s2="7.58367" q0="-0.289096" q1="0.783076" q2="-0.528452" q3="0.154764" euler_x="-1.97617" euler_y="-0.0632048" euler_z="-2.47594" id="118" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_boulder.xml">
+        <parameters />
+    </EnvObject>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Sphere Crete Chipped" path="Data/Objects/Crete/sphere_crete_chipped.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/sphere_crete_chipped.png" />
@@ -403,8 +445,8 @@
     <SpawnerItem display_name="Generic Male Dog" path="Data/Objects/characters/dogs/light_armored_dog_male_2_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/light_armored_dog_male_2_actor.png" />
     <SpawnerItem display_name="Strata Rocks All" path="Data/Objects/Environment/Rocks/strata_rocks/strata_rocks_all.xml" thumbnail_path="Data/UI/spawner/thumbs/Prefabs/strata_rocks_all.png" />
     <SpawnerItem display_name="Strata Rock Capital" path="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_capital.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/strata_rock_capital.png" />
-    <SpawnerItem display_name="Strata Rock Pillar" path="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_pillar.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/strata_rock_pillar.png" />
     <SpawnerItem display_name="Strata Rock Boulder" path="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_boulder.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/strata_rock_boulder.png" />
+    <SpawnerItem display_name="Strata Rock Pillar" path="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_pillar.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/strata_rock_pillar.png" />
     <SpawnerItem display_name="Strata Rock Block" path="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_block.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/strata_rock_block.png" />
     <SpawnerItem display_name="Strata Rock Slope" path="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_slope.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/strata_rock_slope.png" />
 </RecentItems>
