@@ -34,7 +34,7 @@
     <RayToSun r0="0.121363" r1="0.062051" r2="0.990667" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-0.238897" t1="2.78671" t2="3.46148" s0="1" s1="1" s2="1" q0="-0.0912831" q1="-0.0527921" q2="0.00484609" q3="-0.994413" euler_x="0.183079" euler_y="0.106078" euler_z="0" id="0">
+    <CameraObject t0="-2.41923" t1="4.29242" t2="2.92371" s0="1" s1="1" s2="1" q0="0.230278" q1="0.296526" q2="-0.0739082" q3="0.923895" euler_x="0.48854" euler_y="0.621133" euler_z="0" id="0">
         <parameters />
     </CameraObject>
     <EnvObject t0="0" t1="0" t2="0" s0="6" s1="1" s2="6" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/primitives/edged_cube.xml">
@@ -109,7 +109,7 @@
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
             <EnvObjectAttachment>
-                <BoneConnect bone_id="17" num_connections="1" m0="0.996537" m1="-0.0831471" m2="0.000273718" m3="0" m4="0.0831469" m5="0.996512" m6="-0.00708944" m7="0" m8="0.000316703" m9="0.00708765" m10="0.999975" m11="0" m12="0.000688791" m13="0.176015" m14="0.193266" m15="1" />
+                <BoneConnect bone_id="17" num_connections="1" m0="0.996536" m1="-0.0831589" m2="0.000271648" m3="0" m4="0.0831587" m5="0.996511" m6="-0.00709005" m7="0" m8="0.000318974" m9="0.00708808" m10="0.999975" m11="0" m12="0.00712365" m13="0.175309" m14="0.169516" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
@@ -168,6 +168,24 @@
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="47" num_connections="1" m0="0.983673" m1="0.0472537" m2="-0.173652" m3="0" m4="-0.0412596" m5="0.998427" m6="0.037969" m7="0" m8="0.175173" m9="-0.0301843" m10="0.984075" m11="0" m12="-0.071388" m13="-0.182509" m14="0.144817" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="41" num_connections="1" m0="0.994446" m1="0.105163" m2="0.00425658" m3="0" m4="-0.101044" m5="0.965252" m6="-0.240994" m7="0" m8="-0.0294523" m9="0.239226" m10="0.970517" m11="0" m12="0.0887316" m13="-0.192524" m14="0.143838" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="0" num_connections="1" m0="0.755595" m1="0.126618" m2="-0.642685" m3="0" m4="0.00714449" m5="0.979489" m6="0.201373" m7="0" m8="0.655" m9="-0.156748" m10="0.739192" m11="0" m12="0.014934" m13="0.0648212" m14="-0.000828147" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
         </EnvObjectAttachments>
         <EnvObject s0="0.172527" s1="0.201842" s2="0.200267" id="6" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/brain/sphere.xml">
             <parameters />
@@ -178,7 +196,7 @@
         <EnvObject s0="0.0304459" s1="0.028691" s2="0.0353349" id="8" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/shinymetalsmall/half_ring.xml">
             <parameters />
         </EnvObject>
-        <EnvObject s0="0.113532" s1="0.106411" s2="0.119363" id="9" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/brain/tube.xml">
+        <EnvObject s0="0.130138" s1="0.106411" s2="0.131866" id="9" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/brain/tube.xml">
             <parameters />
         </EnvObject>
         <EnvObject s0="0.0532125" s1="0.045911" s2="0.0487023" id="10" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/brain/octagon.xml">
@@ -206,6 +224,15 @@
             <parameters />
         </EnvObject>
         <EnvObject s0="0.0747364" s1="0.132421" s2="0.0788831" id="21" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/brain/tapered_tube.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.0924362" s1="0.110057" s2="0.115999" id="3" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/brain/tube.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.0864163" s1="0.104964" s2="0.104628" id="4" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/brain/tube.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.213888" s1="0.18436" s2="0.188604" id="24" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/brain/wheel.xml">
             <parameters />
         </EnvObject>
     </ActorObject>
