@@ -34,7 +34,7 @@
     <RayToSun r0="0.121363" r1="0.062051" r2="0.990667" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="0.0293027" t1="3.54721" t2="3.86794" s0="1" s1="1" s2="1" q0="-0.130048" q1="0.0777622" q2="-0.0102315" q3="-0.988401" euler_x="0.261645" euler_y="-0.157026" euler_z="0" id="0">
+    <CameraObject t0="0.261112" t1="3.83239" t2="2.11785" s0="1" s1="1" s2="1" q0="-0.316977" q1="-0.0374286" q2="0.0125199" q3="-0.947612" euler_x="0.645603" euler_y="0.0789547" euler_z="0" id="0">
         <parameters />
     </CameraObject>
     <EnvObject t0="0" t1="0" t2="0" s0="6" s1="1" s2="6" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/primitives/edged_cube.xml">
@@ -53,7 +53,7 @@
             <parameter name="Damage Resistance" type="float" val="1" />
             <parameter name="Ear Size" type="float" val="0" />
             <parameter name="Fall Damage Multiplier" type="float" val="1" />
-            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fat" type="float" val="0.375" />
             <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
             <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
             <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
@@ -65,7 +65,7 @@
             <parameter name="Knockout Shield" type="int" val="0" />
             <parameter name="Left handed" type="int" val="0" />
             <parameter name="Movement Speed" type="float" val="0.5" />
-            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="Muscle" type="float" val="0.375" />
             <parameter name="No Look Around" type="int" val="1" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
             <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
@@ -108,6 +108,18 @@
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="17" num_connections="1" m0="0.996541" m1="-0.0831072" m2="0.000263769" m3="0" m4="0.0831069" m5="0.996515" m6="-0.00708552" m7="0" m8="0.000326008" m9="0.00708293" m10="0.999975" m11="0" m12="-0.00529303" m13="0.176514" m14="0.193265" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="2" num_connections="1" m0="0.999939" m1="-0.0110373" m2="-0.000158397" m3="0" m4="0.0110368" m5="0.999935" m6="-0.00277417" m7="0" m8="0.000189006" m9="0.00277226" m10="0.999996" m11="0" m12="-0.00133062" m13="0.549257" m14="0.228955" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
         </EnvObjectAttachments>
         <EnvObject s0="0.172527" s1="0.201842" s2="0.200267" id="6" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/brain/sphere.xml">
             <parameters />
@@ -116,6 +128,12 @@
             <parameters />
         </EnvObject>
         <EnvObject s0="0.0304459" s1="0.028691" s2="0.0353349" id="8" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/shinymetalsmall/half_ring.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.110373" s1="0.106411" s2="0.119363" id="9" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/brain/tube.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.0532125" s1="0.0459109" s2="0.0464002" id="10" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/brain/octagon.xml">
             <parameters />
         </EnvObject>
     </ActorObject>
