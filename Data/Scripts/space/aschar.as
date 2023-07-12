@@ -1,6 +1,6 @@
 #include "interpdirection.as"
 #include "aschar_aux.as"
-#include "aircontrols.as"
+#include "space/aircontrols.as"
 
 enum WalkDir {
     WALK_BACKWARDS,
