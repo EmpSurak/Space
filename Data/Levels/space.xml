@@ -7,13 +7,27 @@
 <LoadingScreen>
     <Image></Image>
 </LoadingScreen>
+<Terrain>
+    <Heightmap>Data/Textures/Terrain/flat.png</Heightmap>
+    <ShaderExtra></ShaderExtra>
+    <DetailMap></DetailMap>
+    <ColorMap>Data/Textures/black.tga</ColorMap>
+    <WeightMap>Data/Textures/black.tga</WeightMap>
+    <DetailMaps>
+        <DetailMap colorpath="Data/Textures/black.tga" normalpath="Data/Textures/normal.tga" materialpath="Data/Materials/rocks.xml" />
+        <DetailMap colorpath="Data/Textures/black.tga" normalpath="Data/Textures/normal.tga" materialpath="Data/Materials/gravel.xml" />
+        <DetailMap colorpath="Data/Textures/black.tga" normalpath="Data/Textures/normal.tga" materialpath="Data/Materials/sand.xml" />
+        <DetailMap colorpath="Data/Textures/black.tga" normalpath="Data/Textures/normal.tga" materialpath="Data/Materials/rock.xml" />
+    </DetailMaps>
+    <DetailObjects />
+</Terrain>
 <OutOfDate NavMesh="true" NavMeshParamHash="-1674835251" />
 <AmbientSounds />
 <Script>space/level.as</Script>
 <LevelScriptParameters>
     <parameter name="Achievements" type="string" val="flawless, no_injuries, no_kills" />
     <parameter name="Custom Shader" type="string" val="" />
-    <parameter name="Fog amount" type="float" val="1" />
+    <parameter name="Fog amount" type="float" val="0" />
     <parameter name="GPU Particle Field" type="string" val="" />
     <parameter name="HDR Black point" type="float" val="0.005" />
     <parameter name="HDR Bloom multiplier" type="float" val="1" />
@@ -28,13 +42,13 @@
 </LevelScriptParameters>
 <NavMeshParameters generate="false" cell_size="0.3" cell_height="0.2" agent_height="1.7" agent_radius="0.4" agent_max_climb="1.5" agent_max_slope="60" />
 <Sky>
-    <DomeTexture>Data/Textures/skies/CloudySunset.tga</DomeTexture>
-    <SunAngularRad>0.153056</SunAngularRad>
-    <SunColorAngle>353.589</SunColorAngle>
-    <RayToSun r0="0.121363" r1="0.062051" r2="0.990667" />
+    <DomeTexture>Data/Textures/skies/space/stars.tga</DomeTexture>
+    <SunAngularRad>0.157926</SunAngularRad>
+    <SunColorAngle>168.749</SunColorAngle>
+    <RayToSun r0="0.272143" r1="0.241569" r2="0.931441" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="2.95771" t1="620.023" t2="7.71683" s0="1" s1="1" s2="1" q0="-0.212197" q1="-0.0252501" q2="0.00548477" q3="-0.976885" euler_x="0.42779" euler_y="0.0516837" euler_z="0" id="0">
+    <CameraObject t0="-4.23124" t1="619.664" t2="-2.51792" s0="1" s1="1" s2="1" q0="0.0454448" q1="0.89566" q2="-0.0941598" q3="0.432276" euler_x="-2.9321" euler_y="0.899318" euler_z="-3.14159" id="0">
         <parameters />
     </CameraObject>
     <Group t0="21.7934" t1="29.1901" t2="19.6553" s0="1274.37" s1="1287.57" s2="1270.01" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1" version="1">
