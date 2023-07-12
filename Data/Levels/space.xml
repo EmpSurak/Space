@@ -34,7 +34,7 @@
     <RayToSun r0="0.121363" r1="0.062051" r2="0.990667" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="1.54616" t1="619.475" t2="2.64033" s0="1" s1="1" s2="1" q0="0.386701" q1="0.131937" q2="-0.0560047" q3="0.910999" euler_x="0.802861" euler_y="0.287654" euler_z="0" id="0">
+    <CameraObject t0="2.95771" t1="620.023" t2="7.71683" s0="1" s1="1" s2="1" q0="-0.212197" q1="-0.0252501" q2="0.00548477" q3="-0.976885" euler_x="0.42779" euler_y="0.0516837" euler_z="0" id="0">
         <parameters />
     </CameraObject>
     <Group t0="21.7934" t1="29.1901" t2="19.6553" s0="1274.37" s1="1287.57" s2="1270.01" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1" version="1">
@@ -379,7 +379,7 @@
     <EnvObject t0="22.2209" t1="604.074" t2="31.9724" s0="7.58366" s1="10.3516" s2="7.58367" q0="-0.289096" q1="0.783076" q2="-0.528452" q3="0.154764" euler_x="-1.97617" euler_y="-0.0632048" euler_z="-2.47594" id="118" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_boulder.xml">
         <parameters />
     </EnvObject>
-    <ActorObject t0="2.47105" t1="616.383" t2="1.17069" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="119" type_file="Data/Objects/characters/space/astro_actor.xml" is_player="1">
+    <ActorObject name="Astro" t0="2.47105" t1="616.383" t2="1.17069" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="119" type_file="Data/Objects/characters/space/astro_actor.xml" is_player="1">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -405,7 +405,7 @@
             <parameter name="Left handed" type="int" val="0" />
             <parameter name="Movement Speed" type="float" val="0.5" />
             <parameter name="Muscle" type="float" val="0.5" />
-            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="No Look Around" type="int" val="1" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
             <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
@@ -423,7 +423,39 @@
         </Connections>
         <ItemConnections />
         <Palette />
+        <EnvObjectAttachments>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="31" num_connections="1" m0="0.999995" m1="0.00148359" m2="-0.00288322" m3="0" m4="-0.00147446" m5="0.999994" m6="0.003166" m7="0" m8="0.0028879" m9="-0.00316173" m10="0.999991" m11="0" m12="0.00983739" m13="0.579041" m14="0.00697517" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="31" num_connections="1" m0="0.999999" m1="-0.00123075" m2="-0.00042266" m3="0" m4="0.00123215" m5="0.999994" m6="0.00331996" m7="0" m8="0.000418572" m9="-0.00332049" m10="0.999994" m11="0" m12="0.0118463" m13="0.583191" m14="-0.0022583" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+        </EnvObjectAttachments>
+        <EnvObject s0="0.154454" s1="0.154454" s2="0.154454" id="83" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/armormetal/sphere.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.198626" s1="0.198626" s2="0.198626" id="120" color_r="0.0313725" color_g="0.0313722" color_b="0.0313722" overbright="2000" type_file="Data/Custom/FnB/Objects/Simple Shapes/oldglass/sphere.xml">
+            <parameters />
+        </EnvObject>
     </ActorObject>
+    <Hotspot name="Player Modifier" t0="2.52503" t1="616.892" t2="0.987527" s0="1" s1="0.68986" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="121" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+        <parameters>
+            <parameter name="Debug Current Line" type="int" val="0" />
+            <parameter name="Run in EditorMode" type="int" val="1" />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;bone_name&quot;:&quot;leftear&quot;,&quot;function&quot;:28,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;inflate_value&quot;:0},{&quot;bone_name&quot;:&quot;rightear&quot;,&quot;function&quot;:28,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;inflate_value&quot;:0}]}&#x0A;' />
+            <parameter name="Show UI Grid" type="int" val="1" />
+            <parameter name="Transform Relative" type="int" val="0" />
+            <parameter name="UI Snap Scale" type="int" val="20" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Sphere Crete Chipped" path="Data/Objects/Crete/sphere_crete_chipped.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/sphere_crete_chipped.png" />
@@ -445,4 +477,5 @@
     <SpawnerItem display_name="Strata Rock Block" path="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_block.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/strata_rock_block.png" />
     <SpawnerItem display_name="Strata Rock Slope" path="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_slope.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/strata_rock_slope.png" />
     <SpawnerItem display_name="Rabbot" path="Data/Objects/characters/rabbot_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/rabbot_actor.png" />
+    <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
 </RecentItems>
