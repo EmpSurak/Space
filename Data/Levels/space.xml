@@ -48,7 +48,7 @@
     <RayToSun r0="0.272143" r1="0.241569" r2="0.931441" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-4.23124" t1="619.664" t2="-2.51792" s0="1" s1="1" s2="1" q0="0.0454448" q1="0.89566" q2="-0.0941598" q3="0.432276" euler_x="-2.9321" euler_y="0.899318" euler_z="-3.14159" id="0">
+    <CameraObject t0="-5.93872" t1="622.566" t2="8.34576" s0="1" s1="1" s2="1" q0="0.18473" q1="0.653875" q2="-0.16919" q3="0.713931" euler_x="0.506394" euler_y="1.48304" euler_z="-1.19013e-006" id="0">
         <parameters />
     </CameraObject>
     <Group t0="21.7934" t1="29.1901" t2="19.6553" s0="1274.37" s1="1287.57" s2="1270.01" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1" version="1">
@@ -288,6 +288,11 @@
             <parameters />
         </Decal>
     </Group>
+    <Hotspot t0="1.94249" t1="615.275" t2="9.26744" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="2" type_file="Data/Objects/Hotspots/space/boundary.xml">
+        <parameters />
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
     <EnvObject t0="-22.0725" t1="604.253" t2="-10.3238" s0="5.7969" s1="5.7969" s2="5.7969" q0="0.0129358" q1="-0.0461283" q2="-0.0647036" q3="0.996754" euler_x="0.0318926" euler_y="-0.0904062" euler_z="-0.131089" id="84" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_boulder.xml">
         <parameters />
     </EnvObject>
@@ -417,7 +422,7 @@
             <parameter name="Ground Aggression" type="float" val="0.5" />
             <parameter name="Knockout Shield" type="int" val="0" />
             <parameter name="Left handed" type="int" val="0" />
-            <parameter name="Movement Speed" type="float" val="0.5" />
+            <parameter name="Movement Speed" type="float" val="0.35" />
             <parameter name="Muscle" type="float" val="0.5" />
             <parameter name="No Look Around" type="int" val="1" />
             <parameter name="Peripheral FOV distance" type="float" val="4" />
@@ -470,6 +475,9 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
+    <EnvObject t0="2.45788" t1="618.153" t2="8.93573" s0="1" s1="1" s2="1" q0="-0.0424444" q1="-0.258956" q2="-0.0540741" q3="0.963437" euler_x="-0.0622881" euler_y="-0.527721" euler_z="-0.0953013" id="122" color_r="0.643137" color_g="0.643131" color_b="0.643131" overbright="25.746" type_file="Data/Prototypes/MagmaArena/MagmaArenaFlag_BannerRed.xml">
+        <parameters />
+    </EnvObject>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Sphere Crete Chipped" path="Data/Objects/Crete/sphere_crete_chipped.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/sphere_crete_chipped.png" />
@@ -492,4 +500,6 @@
     <SpawnerItem display_name="Strata Rock Slope" path="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_slope.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/strata_rock_slope.png" />
     <SpawnerItem display_name="Rabbot" path="Data/Objects/characters/rabbot_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/rabbot_actor.png" />
     <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
+    <SpawnerItem display_name="Magma Arena Flag Banner Red" path="Data/Prototypes/MagmaArena/MagmaArenaFlag_BannerRed.xml" thumbnail_path="" />
+    <SpawnerItem display_name="boundary.xml" path="Data/Objects/Hotspots/space/boundary.xml" thumbnail_path="empty_placeholder.png" />
 </RecentItems>
