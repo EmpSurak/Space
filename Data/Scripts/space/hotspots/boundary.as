@@ -1,11 +1,16 @@
-float _warning_distance = 200;
-float _death_distance = 220;
+string _warning_distance_key = "Warning Distance";
+string _death_distance_key = "Death Distance";
+float _warning_distance_default = 200;
+float _death_distance_default = 220;
 int _sound_loop = 0;
+
 
 void Init(){
 }
 
 void SetParameters(){
+    params.AddFloat(_warning_distance_key, _warning_distance_default);
+    params.AddFloat(_death_distance_key, _death_distance_default);
 }
 
 void Reset(){
@@ -14,11 +19,14 @@ void Reset(){
 void Update(){
     Object@ self = ReadObjectFromID(hotspot.GetID());
     MovementObject@ player_mo = ReadCharacter(0); // TODO: get player by name
+    
+    float warning_distance = params.HasParam(_warning_distance_key) ? params.GetFloat(_warning_distance_key) : _warning_distance_default;
+    float death_distance = params.HasParam(_death_distance_key) ? params.GetFloat(_death_distance_key) : _death_distance_default;
 
     float dist = distance(self.GetTranslation(), player_mo.position);
-    if(dist > _death_distance){
+    if(dist > death_distance){
         player_mo.Execute("SetKnockedOut(_dead);Ragdoll(_RGDL_INJURED);");
-    }else if(dist > _warning_distance){
+    }else if(dist > warning_distance){
         if(_sound_loop == 0){
             _sound_loop = PlaySoundLoop("Data/Sounds/space/warning.wav", 1.0f);
         }
