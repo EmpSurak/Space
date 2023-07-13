@@ -1,5 +1,5 @@
-float _warning_distance = 250;
-float _death_distance = 275;
+float _warning_distance = 200;
+float _death_distance = 220;
 int _sound_loop = 0;
 
 void Init(){
