@@ -18,6 +18,11 @@ void Reset(){
 
 void Update(){
     Object@ self = ReadObjectFromID(hotspot.GetID());
+    
+    if(!self.GetEnabled()){
+        return;
+    }
+    
     MovementObject@ player_mo = ReadCharacter(0); // TODO: get player by name
     
     float warning_distance = params.HasParam(_warning_distance_key) ? params.GetFloat(_warning_distance_key) : _warning_distance_default;
