@@ -1,5 +1,5 @@
 void Init(string level_name){
-    SetGravity(-3);
+    SetGravity(-1);
 }
 
 void Update(){}
