@@ -35,7 +35,7 @@
     <parameter name="Level Boundaries" type="int" val="0" />
     <parameter name="Load Tip" type="string" val="" />
     <parameter name="Objectives" type="string" val="destroy_all" />
-    <parameter name="Saturation" type="float" val="1" />
+    <parameter name="Saturation" type="float" val="0.75" />
     <parameter name="Sky Brightness" type="float" val="1" />
     <parameter name="Sky Rotation" type="float" val="0" />
     <parameter name="Sky Tint" type="string" val="255, 255, 255" />
@@ -48,7 +48,7 @@
     <RayToSun r0="0.272143" r1="0.241569" r2="0.931441" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="14.6826" t1="655.795" t2="195.053" s0="1" s1="1" s2="1" q0="0.393967" q1="-0.259697" q2="0.11708" q3="0.873865" euler_x="0.847092" euler_y="-0.577739" euler_z="0" id="0">
+    <CameraObject t0="16.0235" t1="626.358" t2="-4.67544" s0="1" s1="1" s2="1" q0="-0.0817086" q1="0.906126" q2="-0.205236" q3="-0.360746" euler_x="-2.69611" euler_y="-0.757769" euler_z="-3.14159" id="0">
         <parameters />
     </CameraObject>
     <Group t0="21.7936" t1="29.1898" t2="19.6553" s0="1274.37" s1="1287.57" s2="1270.01" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1" version="1">
@@ -567,6 +567,70 @@
     <EnvObject t0="78.0717" t1="612.359" t2="-3.85351" s0="7.44595" s1="24.3716" s2="7.44595" q0="0" q1="0.163364" q2="0" q3="0.986566" euler_x="0" euler_y="0.328198" euler_z="0" id="144" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_Base.xml">
         <parameters />
     </EnvObject>
+    <Hotspot name="Oxygen Field 1" t0="-26.4142" t1="587.542" t2="160.208" s0="23.4765" s1="9.89948" s2="15.9599" q0="0.0221454" q1="-0.221591" q2="-0.0969458" q3="0.970056" euler_x="0.0951027" euler_y="-0.439643" euler_z="-0.220479" id="145" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+        <parameters>
+            <parameter name="Debug Current Line" type="int" val="0" />
+            <parameter name="Run in EditorMode" type="int" val="1" />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;check_all&quot;:false,&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:2,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;reference_string&quot;:&quot;&quot;,&quot;reset_when_false&quot;:false},{&quot;add_velocity&quot;:true,&quot;apply_multiplier_x&quot;:false,&quot;apply_multiplier_y&quot;:true,&quot;apply_multiplier_z&quot;:false,&quot;bounding_box&quot;:[1,1,1],&quot;function&quot;:24,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;placeholder_id&quot;:146,&quot;set_velocity_mode&quot;:0,&quot;velocity_magnitude&quot;:1.0000001192092896},{&quot;duration&quot;:100,&quot;function&quot;:2},{&quot;function&quot;:7,&quot;line&quot;:0}]}&#x0A;' />
+            <parameter name="Show UI Grid" type="int" val="1" />
+            <parameter name="Transform Relative" type="int" val="0" />
+            <parameter name="UI Snap Scale" type="int" val="20" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <EnvObject name="Set Velocity Helper" t0="2.47105" t1="616.528" t2="1.17069" s0="0.392857" s1="0.392857" s2="0.392857" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="146" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
+    <Hotspot t0="2.3016" t1="595.113" t2="156.937" s0="11.9598" s1="3.02778" s2="3.02778" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="147" type_file="Data/Objects/Hotspots/emitter.xml">
+        <parameters>
+            <parameter name="Type" type="string" val="Smoke" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <Hotspot t0="2.6678" t1="587.701" t2="184.681" s0="3.02781" s1="3.02778" s2="12.2804" q0="0.0948505" q1="-0.215933" q2="0.0210809" q3="0.971562" euler_x="0.194637" euler_y="-0.437397" euler_z="0" id="148" type_file="Data/Objects/Hotspots/emitter.xml">
+        <parameters>
+            <parameter name="Type" type="string" val="Smoke" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <Hotspot t0="-22.2747" t1="588.168" t2="179.549" s0="7.97149" s1="3.02778" s2="7.46428" q0="0" q1="-0.298217" q2="0" q3="0.954498" euler_x="0" euler_y="-0.605648" euler_z="0" id="149" type_file="Data/Objects/Hotspots/emitter.xml">
+        <parameters>
+            <parameter name="Type" type="string" val="Smoke" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <Hotspot t0="-58.249" t1="591.069" t2="171.066" s0="10.3494" s1="3.02778" s2="3.02774" q0="0" q1="-0.234806" q2="0" q3="0.972042" euler_x="0" euler_y="-0.474038" euler_z="0" id="150" type_file="Data/Objects/Hotspots/emitter.xml">
+        <parameters>
+            <parameter name="Type" type="string" val="Smoke" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <Hotspot t0="-46.282" t1="603.576" t2="130.618" s0="7.96721" s1="3.02778" s2="5.57851" q0="0" q1="-0.298217" q2="0" q3="0.954498" euler_x="0" euler_y="-0.605648" euler_z="0" id="151" type_file="Data/Objects/Hotspots/emitter.xml">
+        <parameters>
+            <parameter name="Type" type="string" val="Smoke" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <Hotspot t0="-5.66436" t1="602.156" t2="143.176" s0="11.0657" s1="3.02778" s2="3.02782" q0="0.0328297" q1="-0.296404" q2="-0.105078" q3="0.948697" euler_x="0.150391" euler_y="-0.58896" euler_z="-0.266312" id="152" type_file="Data/Objects/Hotspots/emitter.xml">
+        <parameters>
+            <parameter name="Type" type="string" val="Smoke" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <Hotspot t0="-41.3041" t1="592.674" t2="156.085" s0="8.35799" s1="3.02778" s2="8.8568" q0="0" q1="-0.298217" q2="0" q3="0.954498" euler_x="0" euler_y="-0.605648" euler_z="0" id="154" type_file="Data/Objects/Hotspots/emitter.xml">
+        <parameters>
+            <parameter name="Type" type="string" val="Smoke" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
     <EnvObject t0="22.0607" t1="601.309" t2="131.876" s0="1" s1="1" s2="1" q0="-0.0277634" q1="0.936171" q2="0.0759726" q3="-0.342113" euler_x="2.93102" euler_y="-0.689738" euler_z="-3.00641" id="159" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/ruin_wall_half.xml">
         <parameters />
     </EnvObject>
@@ -622,7 +686,6 @@
     <SpawnerItem display_name="Fire Hotspot" path="Data/Objects/Hotspots/fire_test.xml" thumbnail_path="" />
     <SpawnerItem display_name="Spaceship2" path="Data/Objects/quaternius/Spaceships/Spaceship2.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Spaceships/Spaceship2_N.png" />
     <SpawnerItem display_name="Props Vessel" path="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_Vessel.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Ultimate_Modular_Sci-Fi/Props_Vessel_N.png" />
-    <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
     <SpawnerItem display_name="Props Cratelong" path="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_CrateLong.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Ultimate_Modular_Sci-Fi/Props_CrateLong_N.png" />
     <SpawnerItem display_name="Map Decal" path="Data/Objects/therium/Decals/notes/collinpeakmap.xml" thumbnail_path="" />
     <SpawnerItem display_name="map1.xml" path="Data/Objects/Decals/space/map1.xml" thumbnail_path="empty_placeholder.png" />
@@ -631,4 +694,6 @@
     <SpawnerItem display_name="Props Vessel Short" path="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_Vessel_Short.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Ultimate_Modular_Sci-Fi/Props_Vessel_Short_N.png" />
     <SpawnerItem display_name="Props Base" path="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_Base.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Ultimate_Modular_Sci-Fi/Props_Base_N.png" />
     <SpawnerItem display_name="Ruins All Grouped" path="Data/Objects/Buildings/Ruins/mysterious/ruins_all_objects.xml" thumbnail_path="Data/UI/spawner/thumbs/Prefabs/ruins_all_objects.png" />
+    <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
+    <SpawnerItem display_name="Particle Emitter Hotspot" path="Data/Objects/Hotspots/emitter.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/emitter_icon.png" />
 </RecentItems>
