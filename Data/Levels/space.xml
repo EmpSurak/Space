@@ -48,7 +48,7 @@
     <RayToSun r0="0.272143" r1="0.241569" r2="0.931441" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="123.421" t1="601.117" t2="86.8971" s0="1" s1="1" s2="1" q0="-0.0581906" q1="-0.940514" q2="0.260763" q3="-0.209881" euler_x="-2.60067" euler_y="0.439116" euler_z="3.14159" id="0">
+    <CameraObject t0="-219.916" t1="585.197" t2="120.851" s0="1" s1="1" s2="1" q0="0.323924" q1="-0.378098" q2="0.143188" q3="0.855344" euler_x="0.724032" euler_y="-0.832433" euler_z="0" id="0">
         <parameters />
     </CameraObject>
     <Group t0="21.7904" t1="29.1761" t2="19.6451" s0="1274.37" s1="1287.58" s2="1270.02" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1" version="1">
@@ -655,7 +655,7 @@
     <EnvObject t0="-225.438" t1="569.518" t2="-4.47483" s0="4.99424" s1="10.5707" s2="4.99423" q0="0.124496" q1="-0.0591956" q2="-0.964936" q3="0.223353" euler_x="0.174762" euler_y="0.215482" euler_z="-2.66771" id="156" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Spaceships/Spaceship.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-197.396" t1="800" t2="-32.1665" s0="6" s1="6" s2="6" q0="0.000413097" q1="-0.00722897" q2="1.02514" q3="-0.0572735" euler_x="-0.0148691" euler_y="-1.89051e-005" euler_z="-3.03542" id="157" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_small.xml">
+    <EnvObject t0="-36.0326" t1="800" t2="-196.727" s0="6" s1="6" s2="6" q0="0.00614381" q1="0.0053249" q2="-0.672805" q3="-0.779527" euler_x="-0.0167444" euler_y="-3.46284e-005" euler_z="1.48085" id="157" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_small.xml">
         <parameters>
             <parameter name="Circling Radius" type="string" val="200" />
             <parameter name="Circling Speed" type="string" val="150" />
@@ -665,7 +665,7 @@
             <parameter name="Rotating" type="string" val="-0.1" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="516.79" t1="600" t2="856.112" s0="15" s1="15" s2="15" q0="0.0014264" q1="0.000756294" q2="0.342812" q3="0.950763" euler_x="0.00323087" euler_y="0.000460138" euler_z="0.705748" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_large.xml">
+    <EnvObject t0="963.308" t1="600" t2="-268.397" s0="15" s1="15" s2="15" q0="-0.00164306" q1="3.68357e-005" q2="0.171718" q3="-0.996983" euler_x="0.00328887" euler_y="0.000490836" euler_z="-0.348966" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_large.xml">
         <parameters>
             <parameter name="Circling Radius" type="string" val="1000" />
             <parameter name="Circling Speed" type="string" val="100" />
@@ -738,10 +738,67 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
+    <EnvObject name="Sword 1" t0="-85.1386" t1="568.807" t2="238.113" s0="0.434032" s1="0.434032" s2="0.434032" q0="0.997273" q1="-0.0247781" q2="0.0695303" q3="-0.00162248" euler_x="-3.13485" euler_y="-0.139049" euler_z="-0.0501515" id="179" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_RPG_Items_Pack/Sword_big.xml">
+        <parameters />
+    </EnvObject>
     <EnvObject name="Input Prompt Helper" t0="108.992" t1="617.702" t2="7.02811" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="180" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
     <EnvObject name="Input Prompt Helper" t0="128.143" t1="593.523" t2="94.9652" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="181" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
+    <Hotspot name="Sword Goal 2" t0="-85.1314" t1="569.018" t2="238.088" s0="0.455218" s1="0.622013" s2="0.559811" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="182" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+        <parameters>
+            <parameter name="Debug Current Line" type="int" val="0" />
+            <parameter name="Run in EditorMode" type="int" val="0" />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;check_all&quot;:false,&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:2,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;reference_string&quot;:&quot;&quot;,&quot;reset_when_false&quot;:false},{&quot;bounding_box&quot;:[1,1,1],&quot;custom_prompt&quot;:false,&quot;function&quot;:26,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;input_count&quot;:1,&quot;input_identifier&quot;:10,&quot;input_mode&quot;:0,&quot;input_type&quot;:0,&quot;inputline0&quot;:0,&quot;multi_input_buttons&quot;:[0],&quot;multi_input_others&quot;:[&quot;w&quot;],&quot;multi_input_type&quot;:0,&quot;multi_input_types&quot;:[0],&quot;placeholder_id&quot;:183,&quot;prompt_size&quot;:0.25,&quot;use_prompt&quot;:true},{&quot;dialogue_function&quot;:11,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;dialogue_function&quot;:10,&quot;dialogue_layout&quot;:1,&quot;dialogue_location&quot;:0,&quot;dialogue_text_color&quot;:[1,1,1,1],&quot;dialogue_text_font&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;dialogue_text_shadow&quot;:true,&quot;dialogue_text_size&quot;:40,&quot;dialogue_text_speed&quot;:50,&quot;function&quot;:33,&quot;show_avatar&quot;:false,&quot;show_names&quot;:false,&quot;use_voice_sounds&quot;:true},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[-15.129679679870605,592.763916015625,-176.65464782714844],&quot;target_actor_rotation&quot;:46},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[-84.861000061035156,570.71331787109375,239.73703002929687],&quot;target_camera_rotation&quot;:[-38.551628112792969,0,0],&quot;target_camera_zoom&quot;:90},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;\&quot;Though many had not breathed for long,\nOn this day they breathed their last.\nSomething here has once belonged\nTo one among the children past.\&quot;&quot;,&quot;voice_over_path&quot;:&quot;&quot;},{&quot;dialogue_function&quot;:12,&quot;function&quot;:33,&quot;use_fade&quot;:true}]}&#x0A;' />
+            <parameter name="Show UI Grid" type="int" val="1" />
+            <parameter name="Transform Relative" type="int" val="0" />
+            <parameter name="UI Snap Scale" type="int" val="20" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <EnvObject name="Input Prompt Helper" t0="-85.0893" t1="569.708" t2="238.121" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="183" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-68.9797" t1="568.306" t2="231.426" s0="2.29982" s1="2.29982" s2="2.29982" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="184" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Bones/DogSkull.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-75.9905" t1="568.169" t2="221.333" s0="3.2772" s1="3.2772" s2="3.2772" q0="0" q1="0.961793" q2="0" q3="0.273779" euler_x="-3.14159" euler_y="0.554639" euler_z="-3.14159" id="185" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/therium/cat_skull_decal.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-88.509" t1="567.931" t2="217.267" s0="1.75637" s1="1.75637" s2="1.75637" q0="0.145169" q1="0" q2="0" q3="0.989407" euler_x="0.291368" euler_y="0" euler_z="0" id="186" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Bones.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-106.141" t1="558.962" t2="235.41" s0="1.71867" s1="1.71867" s2="1.71867" q0="0.0739273" q1="0.0426028" q2="0.12818" q3="0.988074" euler_x="0.158005" euler_y="0.0652838" euler_z="0.263184" id="187" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Bones2.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject name="Sword 1" t0="-259.714" t1="554.128" t2="104.781" s0="0.434032" s1="0.434032" s2="0.434032" q0="0.997273" q1="-0.0247781" q2="0.0695303" q3="-0.00162248" euler_x="-3.13485" euler_y="-0.139049" euler_z="-0.0501515" id="188" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_RPG_Items_Pack/Sword_big.xml">
+        <parameters />
+    </EnvObject>
+    <Hotspot name="Sword Goal 3" t0="-259.708" t1="554.351" t2="105.05" s0="0.455218" s1="0.622013" s2="0.559811" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="189" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+        <parameters>
+            <parameter name="Debug Current Line" type="int" val="0" />
+            <parameter name="Run in EditorMode" type="int" val="0" />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;check_all&quot;:false,&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:2,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;reference_string&quot;:&quot;&quot;,&quot;reset_when_false&quot;:false},{&quot;bounding_box&quot;:[1,1,1],&quot;custom_prompt&quot;:false,&quot;function&quot;:26,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;input_count&quot;:1,&quot;input_identifier&quot;:10,&quot;input_mode&quot;:0,&quot;input_type&quot;:0,&quot;inputline0&quot;:0,&quot;multi_input_buttons&quot;:[0],&quot;multi_input_others&quot;:[&quot;w&quot;],&quot;multi_input_type&quot;:0,&quot;multi_input_types&quot;:[0],&quot;placeholder_id&quot;:190,&quot;prompt_size&quot;:0.25,&quot;use_prompt&quot;:true},{&quot;dialogue_function&quot;:11,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;dialogue_function&quot;:10,&quot;dialogue_layout&quot;:1,&quot;dialogue_location&quot;:0,&quot;dialogue_text_color&quot;:[1,1,1,1],&quot;dialogue_text_font&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;dialogue_text_shadow&quot;:true,&quot;dialogue_text_size&quot;:40,&quot;dialogue_text_speed&quot;:50,&quot;function&quot;:33,&quot;show_avatar&quot;:false,&quot;show_names&quot;:false,&quot;use_voice_sounds&quot;:true},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[-259.70770263671875,553.9365234375,105.8126220703125],&quot;target_actor_rotation&quot;:86},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[-259.44268798828125,556.03045654296875,106.63186645507812],&quot;target_camera_rotation&quot;:[-48.379486083984375,0,0],&quot;target_camera_zoom&quot;:90},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;\&quot;Though many had not breathed for long,\nOn this day they breathed their last.\nSomething here has once belonged\nTo one among the children past.\&quot;&quot;,&quot;voice_over_path&quot;:&quot;&quot;},{&quot;dialogue_function&quot;:12,&quot;function&quot;:33,&quot;use_fade&quot;:true}]}&#x0A;' />
+            <parameter name="Show UI Grid" type="int" val="1" />
+            <parameter name="Transform Relative" type="int" val="0" />
+            <parameter name="UI Snap Scale" type="int" val="20" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <EnvObject name="Input Prompt Helper" t0="-14.729" t1="593.872" t2="-177.632" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="190" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-248.92" t1="551.018" t2="109.222" s0="1.97983" s1="1.97983" s2="1.97983" q0="0.0539909" q1="-0.129125" q2="0.197456" q3="0.970269" euler_x="0.055913" euler_y="-0.275359" euler_z="0.393779" id="191" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Bones2.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-246.799" t1="556.47" t2="93.2082" s0="2.05606" s1="2.05606" s2="2.05606" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="192" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Bones.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-263.247" t1="540.99" t2="121.497" s0="2.65456" s1="2.65456" s2="2.65456" q0="0.216006" q1="-0.869475" q2="0.0313968" q3="0.443135" euler_x="2.91925" euler_y="-0.901331" euler_z="-2.54666" id="193" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Bones.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="-6.03586" t1="590.676" t2="-175.053" s0="5.14445" s1="5.14445" s2="5.14445" q0="-0.164066" q1="-0.971977" q2="0.164817" q3="0.0343138" euler_x="-2.80351" euler_y="-0.0126231" euler_z="2.805" id="210" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/RatJunk/RatJunkBirdSkull.xml">
@@ -826,9 +883,11 @@
     <SpawnerItem display_name="dune1.xml" path="Data/Objects/Decals/space/dune1.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="dune2.xml" path="Data/Objects/Decals/space/dune2.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="Bird Skull" path="Data/Objects/Gear/RatJunk/RatJunkBirdSkull.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/birdskull.png" />
-    <SpawnerItem display_name="Cat Skull" path="Data/Objects/therium/cat_skull_decal.xml" thumbnail_path="" />
     <SpawnerItem display_name="Sword Big" path="Data/Objects/quaternius/Ultimate_RPG_Items_Pack/Sword_big.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Ultimate_RPG_Items_Pack/Sword_big_N.png" />
-    <SpawnerItem display_name="Bones" path="Data/Objects/quaternius/Modular_Dungeon_Pack/Bones.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Modular_Dungeon_Pack/Bones_N.png" />
     <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
     <SpawnerItem display_name="Akita Dog" path="Data/Objects/characters/dogs/dog_soldier_actor.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Skull" path="Data/Objects/Environment/Bones/DogSkull.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/skull.png" />
+    <SpawnerItem display_name="Cat Skull" path="Data/Objects/therium/cat_skull_decal.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Bones2" path="Data/Objects/quaternius/Modular_Dungeon_Pack/Bones2.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Modular_Dungeon_Pack/Bones2_N.png" />
+    <SpawnerItem display_name="Bones" path="Data/Objects/quaternius/Modular_Dungeon_Pack/Bones.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Modular_Dungeon_Pack/Bones_N.png" />
 </RecentItems>
