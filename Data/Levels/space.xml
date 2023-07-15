@@ -48,7 +48,7 @@
     <RayToSun r0="0.272143" r1="0.241569" r2="0.931441" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="26.5993" t1="612.42" t2="112.498" s0="1" s1="1" s2="1" q0="0.215995" q1="-0.489165" q2="0.126459" q3="0.835507" euler_x="0.505963" euler_y="-1.05934" euler_z="0" id="0">
+    <CameraObject t0="-8.96271" t1="648.962" t2="-65.8841" s0="1" s1="1" s2="1" q0="0.0650951" q1="0.934512" q2="-0.233029" q3="0.261051" euler_x="-2.65284" euler_y="0.544801" euler_z="-3.14159" id="0">
         <parameters />
     </CameraObject>
     <Group t0="21.8116" t1="29.1595" t2="19.6499" s0="1274.33" s1="1287.61" s2="1270.01" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1" version="1">
@@ -655,7 +655,7 @@
     <EnvObject t0="-225.438" t1="569.518" t2="-4.47483" s0="4.99424" s1="10.5707" s2="4.99423" q0="0.124496" q1="-0.0591956" q2="-0.964936" q3="0.223353" euler_x="0.174762" euler_y="0.215482" euler_z="-2.66771" id="156" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Spaceships/Spaceship.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-188.487" t1="800" t2="66.8775" s0="6" s1="6" s2="6" q0="-0.00326845" q1="0.0104541" q2="-0.991902" q3="0.309841" euler_x="-0.0227657" euler_y="-5.76116e-006" euler_z="-2.57578" id="157" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_small.xml">
+    <EnvObject t0="8.8768" t1="800" t2="-199.803" s0="6" s1="6" s2="6" q0="-0.00393051" q1="-0.0123565" q2="0.996884" q3="0.316279" euler_x="-0.0271247" euler_y="2.03466e-005" euler_z="2.57339" id="157" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_small.xml">
         <parameters>
             <parameter name="Circling Radius" type="string" val="200" />
             <parameter name="Circling Speed" type="string" val="150" />
@@ -665,7 +665,7 @@
             <parameter name="Rotating" type="string" val="-0.1" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="962.706" t1="600" t2="270.551" s0="15" s1="15" s2="15" q0="1.94609e-005" q1="0.00112128" q2="0.986806" q3="0.238316" euler_x="0.00222225" euler_y="0.00049603" euler_z="2.68086" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_large.xml">
+    <EnvObject t0="-997.783" t1="600" t2="-66.5496" s0="15" s1="15" s2="15" q0="0.000392824" q1="-0.000143588" q2="-0.910121" q3="0.456145" euler_x="0.000619734" euler_y="0.000584042" euler_z="-2.23994" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_large.xml">
         <parameters>
             <parameter name="Circling Radius" type="string" val="1000" />
             <parameter name="Circling Speed" type="string" val="100" />
@@ -921,12 +921,87 @@
     <EnvObject name="Input Prompt Helper" t0="17.2244" t1="605.659" t2="106.493" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="221" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
-    <PlaceholderObject t0="18.5355" t1="605.06" t2="105.78" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="222" type_file="Data/Objects/drika_spawn_placeholder.xml" special_type="0">
+    <Group name="Sticks 1" t0="90.6809" t1="606.892" t2="50.841" s0="2.35168" s1="1.7904" s2="2.38707" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="257" version="1">
         <parameters />
-        <Connections>
-            <Connection id="-1" />
-        </Connections>
-    </PlaceholderObject>
+        <EnvObject t0="90.9134" t1="606.267" t2="51.3388" s0="1" s1="1" s2="1" q0="-0.549541" q1="0.191636" q2="0.308486" q3="0.752408" euler_x="-1.14369" euler_y="0.678246" euler_z="0.33172" id="222" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="91.7176" t1="606.892" t2="50.4262" s0="1" s1="1" s2="1" q0="0.0515717" q1="-0.35458" q2="-0.0444058" q3="0.932546" euler_x="0.170127" euler_y="-0.716494" euler_z="-0.158992" id="255" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="90.2181" t1="606.788" t2="49.7713" s0="1" s1="1" s2="1" q0="-0.274374" q1="-0.663629" q2="-0.302972" q3="0.626516" euler_x="2.06427" euler_y="-1.50452" euler_z="-2.90583" id="256" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Hotspot name="Sticks Goal 1" t0="90.2121" t1="607.073" t2="50.7067" s0="0.906573" s1="0.659118" s2="0.750077" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="258" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+        <parameters>
+            <parameter name="Debug Current Line" type="int" val="0" />
+            <parameter name="Run in EditorMode" type="int" val="0" />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Sticks 1&quot;,&quot;identifier_type&quot;:3},{&quot;check_all&quot;:false,&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:2,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;reference_string&quot;:&quot;&quot;,&quot;reset_when_false&quot;:false},{&quot;bounding_box&quot;:[1,1,1],&quot;custom_prompt&quot;:false,&quot;function&quot;:26,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;input_count&quot;:1,&quot;input_identifier&quot;:10,&quot;input_mode&quot;:0,&quot;input_type&quot;:0,&quot;inputline0&quot;:0,&quot;multi_input_buttons&quot;:[0],&quot;multi_input_others&quot;:[&quot;w&quot;],&quot;multi_input_type&quot;:0,&quot;multi_input_types&quot;:[0],&quot;placeholder_id&quot;:259,&quot;prompt_size&quot;:0.25,&quot;use_prompt&quot;:true},{&quot;dialogue_function&quot;:11,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;dialogue_function&quot;:10,&quot;dialogue_layout&quot;:1,&quot;dialogue_location&quot;:0,&quot;dialogue_text_color&quot;:[1,1,1,1],&quot;dialogue_text_font&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;dialogue_text_shadow&quot;:true,&quot;dialogue_text_size&quot;:40,&quot;dialogue_text_speed&quot;:50,&quot;function&quot;:33,&quot;show_avatar&quot;:false,&quot;show_names&quot;:false,&quot;use_voice_sounds&quot;:true},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[90.952667236328125,606.4459228515625,49.766090393066406],&quot;target_actor_rotation&quot;:0},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[91.222877502441406,609.0810546875,52.315849304199219],&quot;target_camera_rotation&quot;:[-57.590805053710937,0,0],&quot;target_camera_zoom&quot;:90},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;Sticks.&quot;,&quot;voice_over_path&quot;:&quot;&quot;},{&quot;dialogue_function&quot;:12,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Sticks 1&quot;,&quot;identifier_type&quot;:3}]}&#x0A;' />
+            <parameter name="Show UI Grid" type="int" val="1" />
+            <parameter name="Transform Relative" type="int" val="0" />
+            <parameter name="UI Snap Scale" type="int" val="20" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <EnvObject name="Input Prompt Helper" t0="91.0206" t1="607.367" t2="50.4911" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="259" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
+    <Group name="Sticks 2" t0="66.8454" t1="596.758" t2="130.349" s0="2.35168" s1="1.7904" s2="2.38707" q0="0" q1="0" q2="-0.0514074" q3="0.998678" euler_x="0" euler_y="0" euler_z="-0.10286" id="260" version="1">
+        <parameters />
+        <EnvObject t0="67.0126" t1="596.113" t2="130.847" s0="1" s1="1" s2="1" q0="-0.538963" q1="0.219633" q2="0.269399" q3="0.767271" euler_x="-1.14369" euler_y="0.678246" euler_z="0.22886" id="261" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="67.8767" t1="596.652" t2="129.934" s0="1" s1="1" s2="1" q0="0.0332755" q1="-0.356763" q2="-0.0922868" q3="0.92903" euler_x="0.170127" euler_y="-0.716494" euler_z="-0.261852" id="262" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="66.3744" t1="596.702" t2="129.279" s0="1" s1="1" s2="1" q0="-0.308127" q1="-0.648647" q2="-0.334779" q3="0.610113" euler_x="2.06428" euler_y="-1.50452" euler_z="-3.00869" id="263" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Hotspot name="Sticks Goal 2" t0="66.3766" t1="596.757" t2="130.215" s0="0.906573" s1="0.659118" s2="0.750077" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="264" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+        <parameters>
+            <parameter name="Debug Current Line" type="int" val="0" />
+            <parameter name="Run in EditorMode" type="int" val="0" />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Sticks 2&quot;,&quot;identifier_type&quot;:3},{&quot;check_all&quot;:false,&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:2,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;reference_string&quot;:&quot;&quot;,&quot;reset_when_false&quot;:false},{&quot;bounding_box&quot;:[1,1,1],&quot;custom_prompt&quot;:false,&quot;function&quot;:26,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;input_count&quot;:1,&quot;input_identifier&quot;:10,&quot;input_mode&quot;:0,&quot;input_type&quot;:0,&quot;inputline0&quot;:0,&quot;multi_input_buttons&quot;:[0],&quot;multi_input_others&quot;:[&quot;w&quot;],&quot;multi_input_type&quot;:0,&quot;multi_input_types&quot;:[0],&quot;placeholder_id&quot;:265,&quot;prompt_size&quot;:0.25,&quot;use_prompt&quot;:true},{&quot;dialogue_function&quot;:11,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;dialogue_function&quot;:10,&quot;dialogue_layout&quot;:1,&quot;dialogue_location&quot;:0,&quot;dialogue_text_color&quot;:[1,1,1,1],&quot;dialogue_text_font&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;dialogue_text_shadow&quot;:true,&quot;dialogue_text_size&quot;:40,&quot;dialogue_text_speed&quot;:50,&quot;function&quot;:33,&quot;show_avatar&quot;:false,&quot;show_names&quot;:false,&quot;use_voice_sounds&quot;:true},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[66.514572143554688,596.58587646484375,130.18086242675781],&quot;target_actor_rotation&quot;:0},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[66.765060424804687,599.1749267578125,132.07762145996094],&quot;target_camera_rotation&quot;:[-56.895065307617188,0,0],&quot;target_camera_zoom&quot;:90},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;Sticks.&quot;,&quot;voice_over_path&quot;:&quot;&quot;},{&quot;dialogue_function&quot;:12,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Sticks 2&quot;,&quot;identifier_type&quot;:3}]}&#x0A;' />
+            <parameter name="Show UI Grid" type="int" val="1" />
+            <parameter name="Transform Relative" type="int" val="0" />
+            <parameter name="UI Snap Scale" type="int" val="20" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <EnvObject name="Input Prompt Helper" t0="66.7251" t1="597.327" t2="130.156" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="265" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
+    <Group name="Sticks 3" t0="10.1941" t1="612.402" t2="-51.9455" s0="2.16176" s1="1.85753" s2="2.68474" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="266" version="1">
+        <parameters />
+        <EnvObject t0="10.2315" t1="611.848" t2="-51.4091" s0="1" s1="1" s2="1" q0="-0.601444" q1="0.0909011" q2="0.267163" q3="0.747414" euler_x="-1.27411" euler_y="0.474898" euler_z="0.332181" id="279" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="11.1332" t1="612.435" t2="-52.1484" s0="1" s1="1" s2="1" q0="0.0515331" q1="-0.456877" q2="0.0017244" q3="0.888034" euler_x="0.154592" euler_y="-0.946926" euler_z="-0.075435" id="280" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="9.77257" t1="612.165" t2="-53.0347" s0="1" s1="1" s2="1" q0="-0.225922" q1="-0.745396" q2="-0.297152" q3="0.552309" euler_x="2.40502" euler_y="-1.2787" euler_z="3.11185" id="281" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+    <Hotspot name="Sticks Goal 3" t0="9.82447" t1="612.724" t2="-52.1001" s0="0.804448" s1="0.659118" s2="0.750077" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="282" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+        <parameters>
+            <parameter name="Debug Current Line" type="int" val="0" />
+            <parameter name="Run in EditorMode" type="int" val="0" />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Sticks 3&quot;,&quot;identifier_type&quot;:3},{&quot;check_all&quot;:false,&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:2,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;reference_string&quot;:&quot;&quot;,&quot;reset_when_false&quot;:false},{&quot;bounding_box&quot;:[1,1,1],&quot;custom_prompt&quot;:false,&quot;function&quot;:26,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;input_count&quot;:1,&quot;input_identifier&quot;:10,&quot;input_mode&quot;:0,&quot;input_type&quot;:0,&quot;inputline0&quot;:0,&quot;multi_input_buttons&quot;:[0],&quot;multi_input_others&quot;:[&quot;w&quot;],&quot;multi_input_type&quot;:0,&quot;multi_input_types&quot;:[0],&quot;placeholder_id&quot;:283,&quot;prompt_size&quot;:0.25,&quot;use_prompt&quot;:true},{&quot;dialogue_function&quot;:11,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;dialogue_function&quot;:10,&quot;dialogue_layout&quot;:1,&quot;dialogue_location&quot;:0,&quot;dialogue_text_color&quot;:[1,1,1,1],&quot;dialogue_text_font&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;dialogue_text_shadow&quot;:true,&quot;dialogue_text_size&quot;:40,&quot;dialogue_text_speed&quot;:50,&quot;function&quot;:33,&quot;show_avatar&quot;:false,&quot;show_names&quot;:false,&quot;use_voice_sounds&quot;:true},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[10.740982055664063,612.04736328125,-52.501502990722656],&quot;target_actor_rotation&quot;:0},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[10.624727249145508,614.8099365234375,-49.590129852294922],&quot;target_camera_rotation&quot;:[-40.310760498046875,0,0],&quot;target_camera_zoom&quot;:90},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;Sticks.&quot;,&quot;voice_over_path&quot;:&quot;&quot;},{&quot;dialogue_function&quot;:12,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Sticks 3&quot;,&quot;identifier_type&quot;:3}]}&#x0A;' />
+            <parameter name="Show UI Grid" type="int" val="1" />
+            <parameter name="Transform Relative" type="int" val="0" />
+            <parameter name="UI Snap Scale" type="int" val="20" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <EnvObject name="Input Prompt Helper" t0="10.4362" t1="612.658" t2="-52.2563" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="283" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters />
+    </EnvObject>
 </ActorObjects>
 <RecentItems>
     <SpawnerItem display_name="Sphere Crete Chipped" path="Data/Objects/Crete/sphere_crete_chipped.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/sphere_crete_chipped.png" />
@@ -979,4 +1054,6 @@
     <SpawnerItem display_name="Bones" path="Data/Objects/quaternius/Modular_Dungeon_Pack/Bones.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Modular_Dungeon_Pack/Bones_N.png" />
     <SpawnerItem display_name="Rope" path="Data/Objects/Buildings/RopeBall1.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/rope.png" />
     <SpawnerItem display_name="Rope Bend 01" path="Data/Objects/Environment/SmallProps/Rope/Rope_Bend_01.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/Rope_Bend_02.png" />
+    <SpawnerItem display_name="Stick" path="Data/Items/stick.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Wooden Stick" path="Data/Objects/Environment/camp/stick.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/stick.png" />
 </RecentItems>
