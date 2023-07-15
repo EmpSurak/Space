@@ -48,7 +48,7 @@
     <RayToSun r0="0.272143" r1="0.241569" r2="0.931441" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="16.0235" t1="626.358" t2="-4.67544" s0="1" s1="1" s2="1" q0="-0.0817086" q1="0.906126" q2="-0.205236" q3="-0.360746" euler_x="-2.69611" euler_y="-0.757769" euler_z="-3.14159" id="0">
+    <CameraObject t0="-161.973" t1="638.306" t2="-2.12225" s0="1" s1="1" s2="1" q0="-0.316623" q1="0.469187" q2="-0.184912" q3="-0.803381" euler_x="0.750842" euler_y="-1.05717" euler_z="0" id="0">
         <parameters />
     </CameraObject>
     <Group t0="21.7936" t1="29.1898" t2="19.6553" s0="1274.37" s1="1287.57" s2="1270.01" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1" version="1">
@@ -564,10 +564,10 @@
     <EnvObject t0="89.6513" t1="608.953" t2="44.1659" s0="17.1536" s1="17.1536" s2="17.1536" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="143" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_Vessel_Short.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="78.0717" t1="612.359" t2="-3.85351" s0="7.44595" s1="24.3716" s2="7.44595" q0="0" q1="0.163364" q2="0" q3="0.986566" euler_x="0" euler_y="0.328198" euler_z="0" id="144" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_Base.xml">
+    <EnvObject t0="78.0717" t1="612.359" t2="-3.85351" s0="7.44595" s1="24.3716" s2="7.44595" q0="0" q1="0.163364" q2="0" q3="0.986566" euler_x="0" euler_y="0.328199" euler_z="0" id="144" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_Base.xml">
         <parameters />
     </EnvObject>
-    <Hotspot name="Oxygen Field 1" t0="-26.4142" t1="587.542" t2="160.208" s0="23.4765" s1="9.89948" s2="15.9599" q0="0.0221454" q1="-0.221591" q2="-0.0969458" q3="0.970056" euler_x="0.0951027" euler_y="-0.439643" euler_z="-0.220479" id="145" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+    <Hotspot name="Oxygen Field 1" t0="-26.4142" t1="587.542" t2="160.208" s0="23.4765" s1="9.89948" s2="15.9599" q0="0.0221454" q1="-0.221591" q2="-0.0969458" q3="0.970056" euler_x="0.0951028" euler_y="-0.439644" euler_z="-0.22048" id="145" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
         <parameters>
             <parameter name="Debug Current Line" type="int" val="0" />
             <parameter name="Run in EditorMode" type="int" val="1" />
@@ -589,7 +589,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <Hotspot t0="2.6678" t1="587.701" t2="184.681" s0="3.02781" s1="3.02778" s2="12.2804" q0="0.0948505" q1="-0.215933" q2="0.0210809" q3="0.971562" euler_x="0.194637" euler_y="-0.437397" euler_z="0" id="148" type_file="Data/Objects/Hotspots/emitter.xml">
+    <Hotspot t0="2.6678" t1="587.701" t2="184.681" s0="3.02781" s1="3.02778" s2="12.2804" q0="0.0948505" q1="-0.215933" q2="0.0210809" q3="0.971562" euler_x="0.194637" euler_y="-0.437398" euler_z="0" id="148" type_file="Data/Objects/Hotspots/emitter.xml">
         <parameters>
             <parameter name="Type" type="string" val="Smoke" />
         </parameters>
@@ -617,13 +617,16 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <Hotspot t0="-5.66436" t1="602.156" t2="143.176" s0="11.0657" s1="3.02778" s2="3.02782" q0="0.0328297" q1="-0.296404" q2="-0.105078" q3="0.948697" euler_x="0.150391" euler_y="-0.58896" euler_z="-0.266312" id="152" type_file="Data/Objects/Hotspots/emitter.xml">
+    <Hotspot t0="-5.66436" t1="602.156" t2="143.176" s0="11.0657" s1="3.02778" s2="3.02782" q0="0.0328297" q1="-0.296404" q2="-0.105078" q3="0.948697" euler_x="0.150391" euler_y="-0.588959" euler_z="-0.266313" id="152" type_file="Data/Objects/Hotspots/emitter.xml">
         <parameters>
             <parameter name="Type" type="string" val="Smoke" />
         </parameters>
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
+    <EnvObject t0="-201.694" t1="578.703" t2="-58.2979" s0="4.99424" s1="10.5707" s2="4.99423" q0="-0.0591956" q1="-0.124496" q2="0.223353" q3="0.964936" euler_x="-0.174762" euler_y="-0.215482" euler_z="0.473874" id="153" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Spaceships/Spaceship.xml">
+        <parameters />
+    </EnvObject>
     <Hotspot t0="-41.3041" t1="592.674" t2="156.085" s0="8.35799" s1="3.02778" s2="8.8568" q0="0" q1="-0.298217" q2="0" q3="0.954498" euler_x="0" euler_y="-0.605648" euler_z="0" id="154" type_file="Data/Objects/Hotspots/emitter.xml">
         <parameters>
             <parameter name="Type" type="string" val="Smoke" />
@@ -631,31 +634,37 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="22.0607" t1="601.309" t2="131.876" s0="1" s1="1" s2="1" q0="-0.0277634" q1="0.936171" q2="0.0759726" q3="-0.342113" euler_x="2.93102" euler_y="-0.689738" euler_z="-3.00641" id="159" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/ruin_wall_half.xml">
+    <EnvObject t0="-223" t1="567.776" t2="-63.5391" s0="4.99424" s1="10.5707" s2="4.99423" q0="-0.0591956" q1="-0.124496" q2="0.223353" q3="0.964936" euler_x="-0.174762" euler_y="-0.215482" euler_z="0.473874" id="155" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Spaceships/Spaceship.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="35.1312" t1="595.882" t2="144.803" s0="1.72662" s1="1.72662" s2="1.72662" q0="0.0476303" q1="-0.0832822" q2="0.682475" q3="0.724585" euler_x="-0.0454575" euler_y="-0.186787" euler_z="1.51522" id="160" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/ruin_support.xml">
+    <EnvObject t0="-225.438" t1="569.518" t2="-4.47483" s0="4.99424" s1="10.5707" s2="4.99423" q0="0.124496" q1="-0.0591956" q2="-0.964936" q3="0.223353" euler_x="0.174762" euler_y="0.215482" euler_z="-2.66771" id="156" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Spaceships/Spaceship.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="41.5966" t1="567.22" t2="232.451" s0="1" s1="1" s2="1" q0="-0.0625979" q1="-0.131753" q2="-0.0634539" q3="0.987267" euler_x="-0.111171" euler_y="-0.271414" euler_z="-0.113172" id="161" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/ruin_wall_base.xml">
+    <EnvObject t0="22.0607" t1="601.309" t2="131.876" s0="1" s1="1" s2="1" q0="-0.0277634" q1="0.936171" q2="0.0759726" q3="-0.342113" euler_x="2.93102" euler_y="-0.689737" euler_z="-3.00641" id="159" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/ruin_wall_half.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="72.65" t1="589.311" t2="153.55" s0="1.78886" s1="1.78886" s2="1.78886" q0="-0.54422" q1="-0.0535577" q2="0.034844" q3="0.836506" euler_x="-1.15661" euler_y="-0.0517" euler_z="0.117012" id="162" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/ruin_arch.xml">
+    <EnvObject t0="35.1312" t1="595.882" t2="144.803" s0="1.72662" s1="1.72662" s2="1.72662" q0="0.0476303" q1="-0.0832822" q2="0.682475" q3="0.724585" euler_x="-0.0454577" euler_y="-0.186787" euler_z="1.51522" id="160" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/ruin_support.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="41.5966" t1="567.22" t2="232.451" s0="1" s1="1" s2="1" q0="-0.0625979" q1="-0.131753" q2="-0.0634539" q3="0.987267" euler_x="-0.111171" euler_y="-0.271415" euler_z="-0.113173" id="161" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/ruin_wall_base.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="72.65" t1="589.311" t2="153.55" s0="1.78886" s1="1.78886" s2="1.78886" q0="-0.54422" q1="-0.0535577" q2="0.034844" q3="0.836506" euler_x="-1.1566" euler_y="-0.0517001" euler_z="0.117012" id="162" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/ruin_arch.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="95.6709" t1="578.616" t2="184.975" s0="1" s1="1" s2="1" q0="0.176866" q1="0" q2="0" q3="0.984235" euler_x="0.355603" euler_y="0" euler_z="0" id="163" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/ruin_pillar_base.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-118.693" t1="578.788" t2="168.432" s0="1.64626" s1="1.00019" s2="2.04912" q0="0.136159" q1="0.0213087" q2="0.107932" q3="0.98456" euler_x="0.276234" euler_y="0.012568" euler_z="0.220123" id="164" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/ruin_floor.xml">
+    <EnvObject t0="-118.693" t1="578.788" t2="168.432" s0="1.64626" s1="1.00019" s2="2.04912" q0="0.136159" q1="0.0213087" q2="0.107932" q3="0.98456" euler_x="0.276234" euler_y="0.0125679" euler_z="0.220124" id="164" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/ruin_floor.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-114.421" t1="577.256" t2="178.845" s0="1" s1="1" s2="1" q0="-0.386575" q1="0.776671" q2="-0.399674" q3="-0.295978" euler_x="-2.48182" euler_y="-0.876904" euler_z="-2.5363" id="165" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/ruin_wall_half.xml">
+    <EnvObject t0="-114.421" t1="577.256" t2="178.845" s0="1" s1="1" s2="1" q0="-0.386575" q1="0.776671" q2="-0.399674" q3="-0.295978" euler_x="-2.48182" euler_y="-0.876905" euler_z="-2.53631" id="165" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/ruin_wall_half.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="14.6709" t1="599.043" t2="105.586" s0="1.29502" s1="1.29502" s2="1.29502" q0="-0.100395" q1="0.971292" q2="0.0720148" q3="0.203293" euler_x="3.03279" euler_y="0.421768" euler_z="-2.95891" id="166" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/tall_ruin_pillar.xml">
+    <EnvObject t0="14.6709" t1="599.043" t2="105.586" s0="1.29502" s1="1.29502" s2="1.29502" q0="-0.100395" q1="0.971292" q2="0.0720148" q3="0.203293" euler_x="3.03279" euler_y="0.421767" euler_z="-2.95891" id="166" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/tall_ruin_pillar.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-24.5165" t1="608.142" t2="94.4545" s0="2.13229" s1="2.13229" s2="2.13229" q0="-0.24724" q1="-0.000587012" q2="-0.000109531" q3="0.968954" euler_x="-0.499661" euler_y="-0.00119174" euler_z="7.8005e-005" id="167" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/ruin_relief.xml">
+    <EnvObject t0="-24.5165" t1="608.142" t2="94.4545" s0="2.13229" s1="2.13229" s2="2.13229" q0="-0.24724" q1="-0.000587012" q2="-0.000109531" q3="0.968954" euler_x="-0.499662" euler_y="-0.00119174" euler_z="7.80047e-005" id="167" color_r="0.788235" color_g="0.788235" color_b="0.788235" overbright="0" type_file="Data/Objects/Buildings/Ruins/mysterious/ruin_relief.xml">
         <parameters />
     </EnvObject>
 </ActorObjects>
@@ -681,7 +690,6 @@
     <SpawnerItem display_name="Rabbot" path="Data/Objects/characters/rabbot_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/rabbot_actor.png" />
     <SpawnerItem display_name="Magma Arena Flag Banner Red" path="Data/Prototypes/MagmaArena/MagmaArenaFlag_BannerRed.xml" thumbnail_path="" />
     <SpawnerItem display_name="boundary.xml" path="Data/Objects/Hotspots/space/boundary.xml" thumbnail_path="empty_placeholder.png" />
-    <SpawnerItem display_name="Spaceship" path="Data/Objects/quaternius/Spaceships/Spaceship.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Spaceships/Spaceship_N.png" />
     <SpawnerItem display_name="Dynamic Light" path="Data/Objects/default_light.xml" thumbnail_path="" />
     <SpawnerItem display_name="Fire Hotspot" path="Data/Objects/Hotspots/fire_test.xml" thumbnail_path="" />
     <SpawnerItem display_name="Spaceship2" path="Data/Objects/quaternius/Spaceships/Spaceship2.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Spaceships/Spaceship2_N.png" />
@@ -696,4 +704,5 @@
     <SpawnerItem display_name="Ruins All Grouped" path="Data/Objects/Buildings/Ruins/mysterious/ruins_all_objects.xml" thumbnail_path="Data/UI/spawner/thumbs/Prefabs/ruins_all_objects.png" />
     <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
     <SpawnerItem display_name="Particle Emitter Hotspot" path="Data/Objects/Hotspots/emitter.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/emitter_icon.png" />
+    <SpawnerItem display_name="Spaceship" path="Data/Objects/quaternius/Spaceships/Spaceship.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Spaceships/Spaceship_N.png" />
 </RecentItems>
