@@ -2,7 +2,7 @@ const float MPI = 3.14159265359;
 float time = 0.0f;
 
 void Init(string level_name){
-    SetGravity(-1);
+    SetGravity(-0.5);
 }
 
 void Update(){
