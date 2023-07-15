@@ -28,6 +28,12 @@ void Update(){
     float warning_distance = params.HasParam(_warning_distance_key) ? params.GetFloat(_warning_distance_key) : _warning_distance_default;
     float death_distance = params.HasParam(_death_distance_key) ? params.GetFloat(_death_distance_key) : _death_distance_default;
 
+    if(EditorModeActive()){
+        DebugDrawWireSphere(self.GetTranslation(), warning_distance, vec3(0.0f, 1.0f, 0.0f), _delete_on_update);
+        DebugDrawWireSphere(self.GetTranslation(), death_distance, vec3(0.0f, 1.0f, 1.0f), _delete_on_update);
+        return;
+    }
+    
     float dist = distance(self.GetTranslation(), player_mo.position);
     if(dist > death_distance){
         player_mo.Execute("SetKnockedOut(_dead);Ragdoll(_RGDL_INJURED);");
