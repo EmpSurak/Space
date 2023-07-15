@@ -185,11 +185,7 @@ bool WantsToCrouch() {
 }
 
 bool WantsToRoll() {
-    if(!this_mo.controlled) {
-        return false;
-    }
-
-    return GetInputPressed(this_mo.controller_id, "crouch");
+    return false;
 }
 
 bool WantsToJump() {
