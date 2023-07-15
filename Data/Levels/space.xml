@@ -35,7 +35,7 @@
     <parameter name="Level Boundaries" type="int" val="0" />
     <parameter name="Load Tip" type="string" val="" />
     <parameter name="Objectives" type="string" val="destroy_all" />
-    <parameter name="Saturation" type="float" val="0" />
+    <parameter name="Saturation" type="float" val="0.75" />
     <parameter name="Sky Brightness" type="float" val="1" />
     <parameter name="Sky Rotation" type="float" val="0" />
     <parameter name="Sky Tint" type="string" val="255, 255, 255" />
@@ -48,7 +48,7 @@
     <RayToSun r0="0.272143" r1="0.241569" r2="0.931441" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="19.7718" t1="626.999" t2="2.4193" s0="1" s1="1" s2="1" q0="0.0917783" q1="0.907708" q2="-0.27305" q3="0.305101" euler_x="-2.55719" euler_y="0.648518" euler_z="-3.14159" id="0">
+    <CameraObject t0="92.2423" t1="647.739" t2="-42.1697" s0="1" s1="1" s2="1" q0="-0.0580723" q1="0.941926" q2="-0.234732" q3="-0.233031" euler_x="-2.65313" euler_y="-0.485056" euler_z="-3.14159" id="0">
         <parameters />
     </CameraObject>
     <Group t0="21.8116" t1="29.1595" t2="19.6499" s0="1274.33" s1="1287.61" s2="1270.01" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1" version="1">
@@ -485,7 +485,7 @@
         <parameters>
             <parameter name="Debug Current Line" type="int" val="0" />
             <parameter name="Run in EditorMode" type="int" val="0" />
-            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;color&quot;:[9.9999999747524271e-007,9.9998999303352321e-007,9.9998999303352321e-007,1],&quot;fullscreen_image_path&quot;:&quot;Data/Textures/black.tga_normal.png&quot;,&quot;function&quot;:36,&quot;ui_element_identifier&quot;:&quot;1214&quot;,&quot;ui_function&quot;:6,&quot;use_fade_in&quot;:false,&quot;use_fade_out&quot;:false,&quot;use_move_in&quot;:false,&quot;use_move_out&quot;:false},{&quot;duration&quot;:2000,&quot;function&quot;:2},{&quot;color&quot;:[9.9999999747524271e-007,9.9998999303352321e-007,9.9998999303352321e-007,1],&quot;fullscreen_image_path&quot;:&quot;Data/Textures/black.tga_normal.png&quot;,&quot;function&quot;:36,&quot;ui_element_identifier&quot;:&quot;1215&quot;,&quot;ui_function&quot;:6,&quot;use_fade_in&quot;:false,&quot;use_fade_out&quot;:true,&quot;use_move_in&quot;:false,&quot;use_move_out&quot;:false},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Start Boundary&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:130,&quot;identifier_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Oxygen Detached&quot;,&quot;identifier_type&quot;:3},{&quot;bone_name&quot;:&quot;leftear&quot;,&quot;function&quot;:28,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;inflate_value&quot;:0},{&quot;bone_name&quot;:&quot;rightear&quot;,&quot;function&quot;:28,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;inflate_value&quot;:0},{&quot;dialogue_function&quot;:11,&quot;function&quot;:33,&quot;use_fade&quot;:false},{&quot;dialogue_function&quot;:10,&quot;dialogue_layout&quot;:1,&quot;dialogue_location&quot;:0,&quot;dialogue_text_color&quot;:[1,1,1,1],&quot;dialogue_text_font&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;dialogue_text_shadow&quot;:true,&quot;dialogue_text_size&quot;:50,&quot;dialogue_text_speed&quot;:50,&quot;function&quot;:33,&quot;show_avatar&quot;:false,&quot;show_names&quot;:false,&quot;use_voice_sounds&quot;:true},{&quot;function&quot;:13,&quot;level_param&quot;:10,&quot;param_after&quot;:0,&quot;param_name&quot;:&quot;Saturation&quot;},{&quot;function&quot;:36,&quot;ui_element_identifier&quot;:&quot;1213&quot;,&quot;ui_function&quot;:0},{&quot;dialogue_control&quot;:true,&quot;dialogue_function&quot;:13,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[0.68274831771850586,615.990478515625,5.4943671226501465],&quot;target_actor_rotation&quot;:0},{&quot;anim_from_start&quot;:true,&quot;anim_mirrored&quot;:false,&quot;anim_mobile&quot;:false,&quot;anim_super_mobile&quot;:false,&quot;custom_animation&quot;:false,&quot;dialogue_function&quot;:3,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_animation&quot;:&quot;Data/Animations/r_sleep.anm&quot;,&quot;use_ik&quot;:true,&quot;wait_anim_end&quot;:false},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[2.1120667457580566,620.26226806640625,0.77970695495605469],&quot;target_camera_rotation&quot;:[-42.350421905517578,162.51741027832031,4.7200255393981934],&quot;target_camera_zoom&quot;:90},{&quot;duration&quot;:5000,&quot;function&quot;:2},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[2.264301061630249,616.0108642578125,4.419579029083252],&quot;target_camera_rotation&quot;:[-1.494613456998195e-006,128.09201049804687,-3.0706678444403224e-006],&quot;target_camera_zoom&quot;:90},{&quot;anim_from_start&quot;:true,&quot;anim_mirrored&quot;:false,&quot;anim_mobile&quot;:false,&quot;anim_super_mobile&quot;:false,&quot;custom_animation&quot;:false,&quot;dialogue_function&quot;:3,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_animation&quot;:&quot;Data/Animations/r_sit_injuredneck.anm&quot;,&quot;use_ik&quot;:true,&quot;wait_anim_end&quot;:false},{&quot;duration&quot;:3000,&quot;function&quot;:2},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;Where am I...?&quot;,&quot;voice_over_path&quot;:&quot;&quot;},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;My head hurts.&quot;,&quot;voice_over_path&quot;:&quot;&quot;},{&quot;duration&quot;:500,&quot;function&quot;:2},{&quot;ai_sound&quot;:false,&quot;bounding_box&quot;:[1,1,1],&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;placeholder_id&quot;:135,&quot;play_sound_method&quot;:0,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/space/warning2.wav&quot;,&quot;sound_type&quot;:0},{&quot;duration&quot;:1500,&quot;function&quot;:2},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[3.673741340637207,616.86517333984375,3.271242618560791],&quot;target_camera_rotation&quot;:[-77.668220520019531,-34.862415313720703,17.438625335693359],&quot;target_camera_zoom&quot;:90},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;I better fill this up.&quot;,&quot;voice_over_path&quot;:&quot;&quot;},{&quot;dialogue_function&quot;:12,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;checkpoint_mode&quot;:0,&quot;function&quot;:37}]}&#x0A;' />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;color&quot;:[9.9999999747524271e-007,9.9998999303352321e-007,9.9998999303352321e-007,1],&quot;fullscreen_image_path&quot;:&quot;Data/Textures/black.tga_normal.png&quot;,&quot;function&quot;:36,&quot;ui_element_identifier&quot;:&quot;1211&quot;,&quot;ui_function&quot;:6,&quot;use_fade_in&quot;:false,&quot;use_fade_out&quot;:false,&quot;use_move_in&quot;:false,&quot;use_move_out&quot;:false},{&quot;duration&quot;:2000,&quot;function&quot;:2},{&quot;color&quot;:[9.9999999747524271e-007,9.9998999303352321e-007,9.9998999303352321e-007,1],&quot;fullscreen_image_path&quot;:&quot;Data/Textures/black.tga_normal.png&quot;,&quot;function&quot;:36,&quot;ui_element_identifier&quot;:&quot;1212&quot;,&quot;ui_function&quot;:6,&quot;use_fade_in&quot;:false,&quot;use_fade_out&quot;:true,&quot;use_move_in&quot;:false,&quot;use_move_out&quot;:false},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Start Boundary&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:130,&quot;identifier_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Oxygen Detached&quot;,&quot;identifier_type&quot;:3},{&quot;bone_name&quot;:&quot;leftear&quot;,&quot;function&quot;:28,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;inflate_value&quot;:0},{&quot;bone_name&quot;:&quot;rightear&quot;,&quot;function&quot;:28,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;inflate_value&quot;:0},{&quot;dialogue_function&quot;:11,&quot;function&quot;:33,&quot;use_fade&quot;:false},{&quot;dialogue_function&quot;:10,&quot;dialogue_layout&quot;:1,&quot;dialogue_location&quot;:0,&quot;dialogue_text_color&quot;:[1,1,1,1],&quot;dialogue_text_font&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;dialogue_text_shadow&quot;:true,&quot;dialogue_text_size&quot;:50,&quot;dialogue_text_speed&quot;:50,&quot;function&quot;:33,&quot;show_avatar&quot;:false,&quot;show_names&quot;:false,&quot;use_voice_sounds&quot;:true},{&quot;function&quot;:13,&quot;level_param&quot;:10,&quot;param_after&quot;:0,&quot;param_name&quot;:&quot;Saturation&quot;},{&quot;function&quot;:36,&quot;ui_element_identifier&quot;:&quot;1213&quot;,&quot;ui_function&quot;:0},{&quot;dialogue_control&quot;:true,&quot;dialogue_function&quot;:13,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[0.68274831771850586,615.990478515625,5.4943671226501465],&quot;target_actor_rotation&quot;:0},{&quot;anim_from_start&quot;:true,&quot;anim_mirrored&quot;:false,&quot;anim_mobile&quot;:false,&quot;anim_super_mobile&quot;:false,&quot;custom_animation&quot;:false,&quot;dialogue_function&quot;:3,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_animation&quot;:&quot;Data/Animations/r_sleep.anm&quot;,&quot;use_ik&quot;:true,&quot;wait_anim_end&quot;:false},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[2.1120667457580566,620.26226806640625,0.77970695495605469],&quot;target_camera_rotation&quot;:[-42.350421905517578,162.51741027832031,4.7200255393981934],&quot;target_camera_zoom&quot;:90},{&quot;duration&quot;:5000,&quot;function&quot;:2},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[2.264301061630249,616.0108642578125,4.419579029083252],&quot;target_camera_rotation&quot;:[-1.494613456998195e-006,128.09201049804687,-3.0706678444403224e-006],&quot;target_camera_zoom&quot;:90},{&quot;anim_from_start&quot;:true,&quot;anim_mirrored&quot;:false,&quot;anim_mobile&quot;:false,&quot;anim_super_mobile&quot;:false,&quot;custom_animation&quot;:false,&quot;dialogue_function&quot;:3,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_animation&quot;:&quot;Data/Animations/r_sit_injuredneck.anm&quot;,&quot;use_ik&quot;:true,&quot;wait_anim_end&quot;:false},{&quot;duration&quot;:3000,&quot;function&quot;:2},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;Where am I...?&quot;,&quot;voice_over_path&quot;:&quot;&quot;},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;My head hurts.&quot;,&quot;voice_over_path&quot;:&quot;&quot;},{&quot;duration&quot;:500,&quot;function&quot;:2},{&quot;ai_sound&quot;:false,&quot;bounding_box&quot;:[1,1,1],&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;placeholder_id&quot;:135,&quot;play_sound_method&quot;:0,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/space/warning2.wav&quot;,&quot;sound_type&quot;:0},{&quot;duration&quot;:1500,&quot;function&quot;:2},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[3.673741340637207,616.86517333984375,3.271242618560791],&quot;target_camera_rotation&quot;:[-77.668220520019531,-34.862415313720703,17.438625335693359],&quot;target_camera_zoom&quot;:90},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;I better fill this up.&quot;,&quot;voice_over_path&quot;:&quot;&quot;},{&quot;dialogue_function&quot;:12,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;checkpoint_mode&quot;:0,&quot;function&quot;:37}]}&#x0A;' />
             <parameter name="Show UI Grid" type="int" val="1" />
             <parameter name="Transform Relative" type="int" val="0" />
             <parameter name="UI Snap Scale" type="int" val="20" />
@@ -534,7 +534,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject name="Oxygen Detached" t0="3.89933" t1="615.916" t2="3.02076" s0="0.856682" s1="0.856682" s2="0.856682" q0="-0.102621" q1="0.0850497" q2="-0.975352" q3="-0.175873" euler_x="-0.133788" euler_y="-0.232179" euler_z="2.80042" id="131" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_Vessel.xml">
+    <EnvObject name="Oxygen Detached" t0="3.89933" t1="615.916" t2="3.02076" s0="0.856682" s1="0.856682" s2="0.856682" q0="-0.102621" q1="0.0850497" q2="-0.975352" q3="-0.175873" euler_x="-0.133788" euler_y="-0.232179" euler_z="2.80042" id="131" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_Vessel.xml">
         <parameters />
     </EnvObject>
     <Hotspot name="Oxygen Pickup" t0="3.69217" t1="616.202" t2="3.05164" s0="0.329119" s1="0.30128" s2="0.25363" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="132" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
@@ -579,7 +579,7 @@
     <EnvObject t0="89.0611" t1="607.796" t2="44.0703" s0="17.1536" s1="17.1536" s2="17.1536" q0="-0.709827" q1="-0.512501" q2="0.243862" q3="0.417156" euler_x="-2.13506" euler_y="-0.0814762" euler_z="1.20581" id="143" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_Vessel_Short.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="78.0717" t1="612.359" t2="-3.85351" s0="7.44595" s1="24.3716" s2="7.44595" q0="0" q1="0.163364" q2="0" q3="0.986566" euler_x="0" euler_y="0.328199" euler_z="0" id="144" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_Base.xml">
+    <EnvObject t0="78.0725" t1="612.358" t2="-3.85261" s0="7.44595" s1="24.3716" s2="7.44595" q0="0" q1="0.163364" q2="0" q3="0.986566" euler_x="0" euler_y="0.328199" euler_z="0" id="144" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_Base.xml">
         <parameters />
     </EnvObject>
     <Hotspot name="Oxygen Field 1" t0="-26.4142" t1="587.542" t2="160.208" s0="23.4765" s1="9.89948" s2="15.9599" q0="0.0221454" q1="-0.221591" q2="-0.0969458" q3="0.970056" euler_x="0.0951028" euler_y="-0.439644" euler_z="-0.22048" id="145" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
@@ -655,7 +655,7 @@
     <EnvObject t0="-225.438" t1="569.518" t2="-4.47483" s0="4.99424" s1="10.5707" s2="4.99423" q0="0.124496" q1="-0.0591956" q2="-0.964936" q3="0.223353" euler_x="0.174762" euler_y="0.215482" euler_z="-2.66771" id="156" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Spaceships/Spaceship.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="127.597" t1="800" t2="-154.01" s0="6" s1="6" s2="6" q0="0.0170313" q1="-0.0062612" q2="0.370823" q3="-1.005" euler_x="-0.0388825" euler_y="-4.62011e-005" euler_z="-0.799449" id="157" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_small.xml">
+    <EnvObject t0="-101.68" t1="800" t2="-172.224" s0="6" s1="6" s2="6" q0="0.0160118" q1="-0.00757548" q2="0.4618" q3="-0.970241" euler_x="-0.0380729" euler_y="-8.84291e-005" euler_z="-1.00172" id="157" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_small.xml">
         <parameters>
             <parameter name="Circling Radius" type="string" val="200" />
             <parameter name="Circling Speed" type="string" val="150" />
@@ -665,7 +665,7 @@
             <parameter name="Rotating" type="string" val="-0.1" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="-508.103" t1="600" t2="-861.296" s0="15" s1="15" s2="15" q0="0.000638008" q1="-0.00145835" q2="-0.987598" q3="0.28324" euler_x="0.00324194" euler_y="0.000434065" euler_z="-2.6097" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_large.xml">
+    <EnvObject t0="696.714" t1="600" t2="-717.349" s0="15" s1="15" s2="15" q0="5.15133e-005" q1="-0.00189221" q2="-1.02549" q3="-0.0861137" euler_x="0.00387202" euler_y="0.000431543" euler_z="2.98285" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_large.xml">
         <parameters>
             <parameter name="Circling Radius" type="string" val="1000" />
             <parameter name="Circling Speed" type="string" val="100" />
@@ -738,7 +738,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject name="Sword 1" t0="-85.1386" t1="568.807" t2="238.113" s0="0.434032" s1="0.434032" s2="0.434032" q0="0.997273" q1="-0.0247781" q2="0.0695303" q3="-0.00162248" euler_x="-3.13485" euler_y="-0.139049" euler_z="-0.0501515" id="179" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_RPG_Items_Pack/Sword_big.xml">
+    <EnvObject name="Sword 1" t0="-85.1386" t1="568.807" t2="238.113" s0="0.434032" s1="0.434032" s2="0.434032" q0="0.997273" q1="-0.0247781" q2="0.0695303" q3="-0.00162248" euler_x="-3.13485" euler_y="-0.139049" euler_z="-0.0501515" id="179" color_r="1" color_g="1" color_b="1" overbright="20" type_file="Data/Objects/quaternius/Ultimate_RPG_Items_Pack/Sword_big.xml">
         <parameters />
     </EnvObject>
     <EnvObject name="Input Prompt Helper" t0="108.992" t1="617.702" t2="7.02811" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="180" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
@@ -774,7 +774,7 @@
     <EnvObject t0="-106.141" t1="558.962" t2="235.41" s0="1.71867" s1="1.71867" s2="1.71867" q0="0.0739273" q1="0.0426028" q2="0.12818" q3="0.988074" euler_x="0.158005" euler_y="0.0652838" euler_z="0.263184" id="187" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Bones2.xml">
         <parameters />
     </EnvObject>
-    <EnvObject name="Sword 1" t0="-259.714" t1="554.128" t2="104.781" s0="0.434032" s1="0.434032" s2="0.434032" q0="0.997273" q1="-0.0247781" q2="0.0695303" q3="-0.00162248" euler_x="-3.13485" euler_y="-0.139049" euler_z="-0.0501515" id="188" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_RPG_Items_Pack/Sword_big.xml">
+    <EnvObject name="Sword 1" t0="-259.714" t1="554.128" t2="104.781" s0="0.434032" s1="0.434032" s2="0.434032" q0="0.997273" q1="-0.0247781" q2="0.0695303" q3="-0.00162248" euler_x="-3.13485" euler_y="-0.139049" euler_z="-0.0501515" id="188" color_r="1" color_g="1" color_b="1" overbright="20" type_file="Data/Objects/quaternius/Ultimate_RPG_Items_Pack/Sword_big.xml">
         <parameters />
     </EnvObject>
     <Hotspot name="Sword Goal 3" t0="-259.708" t1="554.351" t2="105.05" s0="0.455218" s1="0.622013" s2="0.559811" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="189" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
@@ -818,13 +818,13 @@
     </EnvObject>
     <Group name="Rope 1" t0="92.4375" t1="597.317" t2="104.331" s0="4.01996" s1="0.954275" s2="1.91813" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="199" version="1">
         <parameters />
-        <EnvObject t0="92.45" t1="597.518" t2="103.713" s0="2.28576" s1="2.28576" s2="2.28576" q0="-0.484079" q1="0.0138065" q2="0.868647" q3="0.104535" euler_x="-0.144425" euler_y="1.00446" euler_z="2.82264" id="194" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/RopeBall1.xml">
+        <EnvObject t0="92.45" t1="597.518" t2="103.713" s0="2.28576" s1="2.28576" s2="2.28576" q0="-0.484079" q1="0.0138065" q2="0.868647" q3="0.104535" euler_x="-0.144425" euler_y="1.00446" euler_z="2.82264" id="194" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Buildings/RopeBall1.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="92.4375" t1="597.115" t2="104.848" s0="1.76183" s1="1.76183" s2="1.76183" q0="-0.705915" q1="0.0410346" q2="-0.0410346" q3="0.705915" euler_x="-1.5708" euler_y="0" euler_z="-0.116129" id="195" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/SmallProps/Rope/Rope_Bend_01.xml">
+        <EnvObject t0="92.4375" t1="597.115" t2="104.848" s0="1.76183" s1="1.76183" s2="1.76183" q0="-0.705915" q1="0.0410346" q2="-0.0410346" q3="0.705915" euler_x="-1.5708" euler_y="0" euler_z="-0.116129" id="195" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Environment/SmallProps/Rope/Rope_Bend_01.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="91.2811" t1="597.338" t2="104.734" s0="2.49048" s1="2.49048" s2="2.49048" q0="-0.0210739" q1="-0.0367404" q2="0.994201" q3="0.0988346" euler_x="-0.0773438" euler_y="0.0346479" euler_z="2.94208" id="196" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/RopeBall1.xml">
+        <EnvObject t0="91.2811" t1="597.338" t2="104.734" s0="2.49048" s1="2.49048" s2="2.49048" q0="-0.0210739" q1="-0.0367404" q2="0.994201" q3="0.0988346" euler_x="-0.0773438" euler_y="0.0346479" euler_z="2.94208" id="196" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Buildings/RopeBall1.xml">
             <parameters />
         </EnvObject>
     </Group>
@@ -842,13 +842,13 @@
     </Hotspot>
     <Group name="Rope 2" t0="74.7944" t1="610.009" t2="6.27387" s0="4.03669" s1="0.708486" s2="1.9633" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="201" version="1">
         <parameters />
-        <EnvObject t0="74.6429" t1="610.03" t2="5.63288" s0="2.286" s1="2.28599" s2="2.28599" q0="-0.487506" q1="0.0133935" q2="0.866728" q3="0.104588" euler_x="-0.149095" euler_y="1.01196" euler_z="2.81869" id="202" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/RopeBall1.xml">
+        <EnvObject t0="74.6429" t1="610.03" t2="5.63288" s0="2.286" s1="2.28599" s2="2.28599" q0="-0.487506" q1="0.0133935" q2="0.866728" q3="0.104588" euler_x="-0.149095" euler_y="1.01196" euler_z="2.81869" id="202" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Buildings/RopeBall1.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="74.7944" t1="609.87" t2="6.79764" s0="1.76183" s1="1.76183" s2="1.76183" q0="-0.706322" q1="0.0277278" q2="-0.0333082" q3="0.706563" euler_x="-1.57012" euler_y="-0.00786984" euler_z="-0.0863481" id="203" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/SmallProps/Rope/Rope_Bend_01.xml">
+        <EnvObject t0="74.7944" t1="609.87" t2="6.79764" s0="1.76183" s1="1.76183" s2="1.76183" q0="-0.706322" q1="0.0277278" q2="-0.0333082" q3="0.706563" euler_x="-1.57012" euler_y="-0.00786984" euler_z="-0.0863481" id="203" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Environment/SmallProps/Rope/Rope_Bend_01.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="73.2474" t1="610.07" t2="6.52819" s0="2.49057" s1="2.49062" s2="2.4906" q0="-0.0250004" q1="-0.0371304" q2="0.99411" q3="0.0986887" euler_x="-0.0789106" euler_y="0.0423903" euler_z="2.94202" id="204" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/RopeBall1.xml">
+        <EnvObject t0="73.2474" t1="610.07" t2="6.52819" s0="2.49057" s1="2.49062" s2="2.4906" q0="-0.0250004" q1="-0.0371304" q2="0.99411" q3="0.0986887" euler_x="-0.0789106" euler_y="0.0423903" euler_z="2.94202" id="204" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Buildings/RopeBall1.xml">
             <parameters />
         </EnvObject>
     </Group>
@@ -869,13 +869,13 @@
     </Hotspot>
     <Group name="Rope 1" t0="17.2391" t1="604.87" t2="106.147" s0="4.27387" s1="0.78301" s2="1.99286" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="207" version="1">
         <parameters />
-        <EnvObject t0="17.334" t1="604.985" t2="105.492" s0="2.28576" s1="2.28576" s2="2.28576" q0="-0.484079" q1="0.0138065" q2="0.868647" q3="0.104535" euler_x="-0.144425" euler_y="1.00446" euler_z="2.82264" id="208" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/RopeBall1.xml">
+        <EnvObject t0="17.334" t1="604.985" t2="105.492" s0="2.28576" s1="2.28576" s2="2.28576" q0="-0.484079" q1="0.0138065" q2="0.868647" q3="0.104535" euler_x="-0.144425" euler_y="1.00446" euler_z="2.82264" id="208" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Buildings/RopeBall1.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="17.3456" t1="604.676" t2="106.663" s0="1.76183" s1="1.76183" s2="1.76183" q0="-0.620199" q1="0.000505511" q2="-0.0175124" q3="0.784248" euler_x="-1.33794" euler_y="-0.020931" euler_z="-0.028105" id="209" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/SmallProps/Rope/Rope_Bend_01.xml">
+        <EnvObject t0="17.3456" t1="604.676" t2="106.663" s0="1.76183" s1="1.76183" s2="1.76183" q0="-0.620199" q1="0.000505511" q2="-0.0175124" q3="0.784248" euler_x="-1.33794" euler_y="-0.020931" euler_z="-0.028105" id="209" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Environment/SmallProps/Rope/Rope_Bend_01.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="15.4074" t1="604.947" t2="106.063" s0="2.49048" s1="2.49048" s2="2.49048" q0="-0.0210739" q1="-0.0367404" q2="0.994201" q3="0.0988346" euler_x="-0.0773438" euler_y="0.0346479" euler_z="2.94208" id="211" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/RopeBall1.xml">
+        <EnvObject t0="15.4074" t1="604.947" t2="106.063" s0="2.49048" s1="2.49048" s2="2.49048" q0="-0.0210739" q1="-0.0367404" q2="0.994201" q3="0.0988346" euler_x="-0.0773438" euler_y="0.0346479" euler_z="2.94208" id="211" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Buildings/RopeBall1.xml">
             <parameters />
         </EnvObject>
     </Group>
@@ -894,7 +894,7 @@
     <EnvObject t0="-18.1908" t1="593.467" t2="-174.569" s0="1.75137" s1="1.75137" s2="1.75137" q0="-0.0111651" q1="0.151555" q2="-0.119665" q3="0.981117" euler_x="-0.060922" euler_y="0.299156" euler_z="-0.251922" id="215" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/therium/cat_skull_decal.xml">
         <parameters />
     </EnvObject>
-    <EnvObject name="Sword 1" t0="-14.7131" t1="592.775" t2="-177.564" s0="0.434032" s1="0.434032" s2="0.434032" q0="0.997273" q1="-0.0247781" q2="0.0695303" q3="-0.00162248" euler_x="-3.13485" euler_y="-0.139049" euler_z="-0.0501515" id="216" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_RPG_Items_Pack/Sword_big.xml">
+    <EnvObject name="Sword 1" t0="-14.7131" t1="592.775" t2="-177.564" s0="0.434032" s1="0.434032" s2="0.434032" q0="0.997273" q1="-0.0247781" q2="0.0695303" q3="-0.00162248" euler_x="-3.13485" euler_y="-0.139049" euler_z="-0.0501515" id="216" color_r="1" color_g="1" color_b="1" overbright="20" type_file="Data/Objects/quaternius/Ultimate_RPG_Items_Pack/Sword_big.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="0.442451" t1="588.59" t2="-178.999" s0="1.71082" s1="1.71082" s2="1.71082" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="217" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Modular_Dungeon_Pack/Bones.xml">
@@ -921,40 +921,13 @@
     <EnvObject name="Input Prompt Helper" t0="17.2244" t1="605.659" t2="106.493" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="221" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
-    <DynamicLightObject t0="67.1106" t1="598.091" t2="129.955" s0="7.56083" s1="7.56083" s2="7.56083" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="223" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
-        <parameters />
-    </DynamicLightObject>
-    <DynamicLightObject t0="91.9222" t1="598.967" t2="104.53" s0="7.56083" s1="7.56083" s2="7.56083" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="224" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
-        <parameters />
-    </DynamicLightObject>
-    <DynamicLightObject t0="17.3585" t1="606.607" t2="105.671" s0="7.56083" s1="7.56083" s2="7.56083" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="225" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
-        <parameters />
-    </DynamicLightObject>
-    <DynamicLightObject t0="10.5354" t1="613.679" t2="-52.0212" s0="7.56083" s1="7.56083" s2="7.56083" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="226" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
-        <parameters />
-    </DynamicLightObject>
-    <DynamicLightObject t0="-14.5919" t1="594.192" t2="-177.511" s0="7.56083" s1="7.56083" s2="7.56083" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="227" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
-        <parameters />
-    </DynamicLightObject>
     <DynamicLightObject t0="109.191" t1="618.431" t2="8.37137" s0="7.56083" s1="7.56083" s2="7.56083" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="228" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
         <parameters />
     </DynamicLightObject>
     <DynamicLightObject t0="128.525" t1="595.54" t2="95.4059" s0="7.56083" s1="7.56083" s2="7.56083" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="229" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
         <parameters />
     </DynamicLightObject>
-    <DynamicLightObject t0="90.3065" t1="607.561" t2="50.4362" s0="7.56083" s1="7.56083" s2="7.56083" q0="0.00139081" q1="-0.00114802" q2="-0.000866089" q3="0.999998" euler_x="0.00278361" euler_y="-0.00229363" euler_z="-0.00173537" id="230" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
-        <parameters />
-    </DynamicLightObject>
-    <DynamicLightObject t0="74.7584" t1="611.729" t2="6.43087" s0="7.56083" s1="7.56083" s2="7.56083" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="231" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
-        <parameters />
-    </DynamicLightObject>
-    <DynamicLightObject t0="-260.039" t1="554.67" t2="104.921" s0="7.56083" s1="7.56083" s2="7.56083" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="232" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
-        <parameters />
-    </DynamicLightObject>
-    <DynamicLightObject t0="-85.6031" t1="569.875" t2="238.054" s0="7.56083" s1="7.56083" s2="7.56083" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="233" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
-        <parameters />
-    </DynamicLightObject>
-    <EnvObject t0="127.658" t1="592.076" t2="94.7324" s0="0.764341" s1="1.00002" s2="0.679849" q0="0.0659893" q1="-0.00484051" q2="-0.0729959" q3="0.995135" euler_x="0.13243" euler_y="0" euler_z="-0.146443" id="234" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
+    <EnvObject t0="127.67" t1="592.157" t2="94.7433" s0="0.764341" s1="1.00002" s2="0.679849" q0="0.0659893" q1="-0.00484051" q2="-0.0729959" q3="0.995135" euler_x="0.13243" euler_y="0" euler_z="-0.146443" id="234" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
         <parameters />
     </EnvObject>
     <Hotspot name="Pyramid Boundary" t0="48.0865" t1="613.775" t2="6.07159" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="235" type_file="Data/Objects/Hotspots/space/boundary.xml">
@@ -989,15 +962,18 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
+    <EnvObject t0="85.5093" t1="609.615" t2="-2.50514" s0="0.161411" s1="0.161411" s2="0.161411" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="239" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/quaternius/Farm_Animals/Llama.xml">
+        <parameters />
+    </EnvObject>
     <Group name="Sticks 1" t0="90.6809" t1="606.892" t2="50.841" s0="2.35168" s1="1.7904" s2="2.38707" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="257" version="1">
         <parameters />
-        <EnvObject t0="90.9134" t1="606.267" t2="51.3388" s0="1" s1="1" s2="1" q0="-0.549541" q1="0.191636" q2="0.308486" q3="0.752408" euler_x="-1.14369" euler_y="0.678246" euler_z="0.33172" id="222" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+        <EnvObject t0="90.9134" t1="606.267" t2="51.3388" s0="1" s1="1" s2="1" q0="-0.549541" q1="0.191636" q2="0.308486" q3="0.752408" euler_x="-1.14369" euler_y="0.678246" euler_z="0.33172" id="222" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Environment/camp/stick.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="91.7176" t1="606.892" t2="50.4262" s0="1" s1="1" s2="1" q0="0.0515717" q1="-0.35458" q2="-0.0444058" q3="0.932546" euler_x="0.170127" euler_y="-0.716493" euler_z="-0.158992" id="255" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+        <EnvObject t0="91.7176" t1="606.892" t2="50.4262" s0="1" s1="1" s2="1" q0="0.0515717" q1="-0.35458" q2="-0.0444058" q3="0.932546" euler_x="0.170127" euler_y="-0.716493" euler_z="-0.158992" id="255" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Environment/camp/stick.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="90.2181" t1="606.788" t2="49.7713" s0="1" s1="1" s2="1" q0="-0.274374" q1="-0.663629" q2="-0.302972" q3="0.626516" euler_x="2.06427" euler_y="-1.50451" euler_z="-2.90583" id="256" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+        <EnvObject t0="90.2181" t1="606.788" t2="49.7713" s0="1" s1="1" s2="1" q0="-0.274374" q1="-0.663629" q2="-0.302972" q3="0.626516" euler_x="2.06427" euler_y="-1.50451" euler_z="-2.90583" id="256" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Environment/camp/stick.xml">
             <parameters />
         </EnvObject>
     </Group>
@@ -1016,15 +992,15 @@
     <EnvObject name="Input Prompt Helper" t0="91.0206" t1="607.367" t2="50.4911" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="259" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
-    <Group name="Sticks 2" t0="66.8454" t1="596.758" t2="130.349" s0="2.35168" s1="1.7904" s2="2.38707" q0="0" q1="0" q2="-0.0514074" q3="0.998678" euler_x="0" euler_y="0" euler_z="-0.10286" id="260" version="1">
+    <Group name="Sticks 2" t0="66.8573" t1="596.652" t2="130.349" s0="2.49537" s1="1.7744" s2="2.3875" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="260" version="1">
         <parameters />
-        <EnvObject t0="67.0126" t1="596.113" t2="130.847" s0="1" s1="1" s2="1" q0="-0.538963" q1="0.219633" q2="0.269399" q3="0.767271" euler_x="-1.14369" euler_y="0.678246" euler_z="0.22886" id="261" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+        <EnvObject t0="67.0126" t1="596.113" t2="130.847" s0="1" s1="1" s2="1" q0="-0.538963" q1="0.219633" q2="0.269399" q3="0.767271" euler_x="-1.14369" euler_y="0.678246" euler_z="0.22886" id="261" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Environment/camp/stick.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="67.8767" t1="596.652" t2="129.934" s0="1" s1="1" s2="1" q0="0.0332755" q1="-0.356763" q2="-0.0922868" q3="0.92903" euler_x="0.170127" euler_y="-0.716495" euler_z="-0.261852" id="262" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+        <EnvObject t0="67.8767" t1="596.652" t2="129.934" s0="1" s1="1" s2="1" q0="0.0332755" q1="-0.356763" q2="-0.0922868" q3="0.92903" euler_x="0.170127" euler_y="-0.716495" euler_z="-0.261852" id="262" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Environment/camp/stick.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="66.3744" t1="596.702" t2="129.279" s0="1" s1="1" s2="1" q0="-0.308127" q1="-0.648647" q2="-0.334779" q3="0.610113" euler_x="2.06429" euler_y="-1.50453" euler_z="-3.0087" id="263" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+        <EnvObject t0="66.3744" t1="596.702" t2="129.279" s0="1" s1="1" s2="1" q0="-0.308127" q1="-0.648647" q2="-0.334779" q3="0.610113" euler_x="2.06429" euler_y="-1.50453" euler_z="-3.0087" id="263" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Environment/camp/stick.xml">
             <parameters />
         </EnvObject>
     </Group>
@@ -1045,13 +1021,13 @@
     </EnvObject>
     <Group name="Sticks 3" t0="10.1941" t1="612.402" t2="-51.9455" s0="2.16176" s1="1.85753" s2="2.68474" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="266" version="1">
         <parameters />
-        <EnvObject t0="10.2315" t1="611.848" t2="-51.4091" s0="1" s1="1" s2="1" q0="-0.601444" q1="0.0909011" q2="0.267163" q3="0.747414" euler_x="-1.27411" euler_y="0.474899" euler_z="0.332182" id="279" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+        <EnvObject t0="10.2315" t1="611.848" t2="-51.4091" s0="1" s1="1" s2="1" q0="-0.601444" q1="0.0909011" q2="0.267163" q3="0.747414" euler_x="-1.27411" euler_y="0.474899" euler_z="0.332182" id="279" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Environment/camp/stick.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="11.1332" t1="612.435" t2="-52.1484" s0="1" s1="1" s2="1" q0="0.0515331" q1="-0.456877" q2="0.0017244" q3="0.888034" euler_x="0.154592" euler_y="-0.946924" euler_z="-0.0754349" id="280" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+        <EnvObject t0="11.1332" t1="612.435" t2="-52.1484" s0="1" s1="1" s2="1" q0="0.0515331" q1="-0.456877" q2="0.0017244" q3="0.888034" euler_x="0.154592" euler_y="-0.946924" euler_z="-0.0754349" id="280" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Environment/camp/stick.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="9.77257" t1="612.165" t2="-53.0347" s0="1" s1="1" s2="1" q0="-0.225922" q1="-0.745396" q2="-0.297152" q3="0.552309" euler_x="2.40503" euler_y="-1.27871" euler_z="3.11185" id="281" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/camp/stick.xml">
+        <EnvObject t0="9.77257" t1="612.165" t2="-53.0347" s0="1" s1="1" s2="1" q0="-0.225922" q1="-0.745396" q2="-0.297152" q3="0.552309" euler_x="2.40503" euler_y="-1.27871" euler_z="3.11185" id="281" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Environment/camp/stick.xml">
             <parameters />
         </EnvObject>
     </Group>
@@ -1142,4 +1118,5 @@
     <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
     <SpawnerItem display_name="Dynamic Light" path="Data/Objects/default_light.xml" thumbnail_path="" />
     <SpawnerItem display_name="Invisible Block" path="Data/Objects/invisibleblock.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/invisibleblock.png" />
+    <SpawnerItem display_name="Llama" path="Data/Objects/quaternius/Farm_Animals/Llama.xml" thumbnail_path="Data/UI/spawner/thumbs/quaternius/Farm_Animals/Llama_N.png" />
 </RecentItems>
