@@ -33,5 +33,5 @@
        <Version>0.1.0</Version> 
     </ModDependency>
 
-    <Level title="Space" thumbnail="UI/mainmenu/images/space.png">space.xml</Level>
+    <Level title="The Hunt" thumbnail="UI/mainmenu/images/space.png">space.xml</Level>
 </Mod>
