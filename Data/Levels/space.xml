@@ -48,7 +48,7 @@
     <RayToSun r0="0.272143" r1="0.241569" r2="0.931441" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="151.589" t1="646.258" t2="16.6979" s0="1" s1="1" s2="1" q0="0.0747024" q1="-0.92422" q2="0.286987" q3="0.240574" euler_x="-2.53944" euler_y="-0.509297" euler_z="3.14159" id="0">
+    <CameraObject t0="-57.7299" t1="616.448" t2="91.9862" s0="1" s1="1" s2="1" q0="0.294831" q1="-0.505426" q2="0.188958" q3="0.788615" euler_x="0.71554" euler_y="-1.13991" euler_z="0" id="0">
         <parameters />
     </CameraObject>
     <Group t0="21.8045" t1="29.146" t2="19.6601" s0="1274.33" s1="1287.61" s2="1270.01" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1" version="1">
@@ -56,6 +56,9 @@
         <EnvObject t0="-0.0352478" t1="0.666506" t2="-0.0204811" s0="50" s1="50" s2="50" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="5" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/sphere_crete_whole.xml">
             <parameters />
         </EnvObject>
+        <Decal t0="-67.5587" t1="607.154" t2="85.1556" s0="6.6726" s1="4.47855" s2="5.34489" q0="0.0653125" q1="-0.313737" q2="0.0216374" q3="0.947014" euler_x="0.137716" euler_y="-0.639823" euler_z="0" id="244" type_file="Data/Objects/Decals/rugs/thick_tan_rug.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+            <parameters />
+        </Decal>
         <Decal t0="135.492" t1="588.346" t2="100.773" s0="46.4663" s1="27.1388" s2="59.7719" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="173" type_file="Data/Objects/Decals/space/dune1.xml" color_r="1" color_g="1" color_b="1" overbright="0">
             <parameters />
         </Decal>
@@ -655,7 +658,7 @@
     <EnvObject t0="-225.438" t1="569.518" t2="-4.47483" s0="4.99424" s1="10.5707" s2="4.99423" q0="0.124496" q1="-0.0591956" q2="-0.964936" q3="0.223353" euler_x="0.174762" euler_y="0.215482" euler_z="-2.66771" id="156" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Spaceships/Spaceship.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="24.949" t1="800" t2="-198.438" s0="6" s1="6" s2="6" q0="0.00967753" q1="0.00364029" q2="-0.379014" q3="-1.02477" euler_x="-0.022595" euler_y="-0.000125104" euler_z="0.828478" id="157" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_small.xml">
+    <EnvObject t0="-167.12" t1="800" t2="-109.868" s0="6" s1="6" s2="6" q0="-0.00173199" q1="0.00992596" q2="-1.07789" q3="0.181286" euler_x="-0.022027" euler_y="-0.000134909" euler_z="-2.85452" id="157" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_small.xml">
         <parameters>
             <parameter name="Circling Radius" type="string" val="200" />
             <parameter name="Circling Speed" type="string" val="150" />
@@ -665,7 +668,7 @@
             <parameter name="Rotating" type="string" val="-0.1" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="-982.453" t1="600" t2="-186.508" s0="15" s1="15" s2="15" q0="-0.000189565" q1="0.000534654" q2="1.03921" q3="0.0328803" euler_x="0.00109877" euler_y="0.000429154" euler_z="3.08274" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_large.xml">
+    <EnvObject t0="-86.8563" t1="600" t2="996.221" s0="15" s1="15" s2="15" q0="0.000230908" q1="0.00052017" q2="0.737764" q3="0.732967" euler_x="0.00110602" euler_y="0.000421823" euler_z="1.65253" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_large.xml">
         <parameters>
             <parameter name="Circling Radius" type="string" val="1000" />
             <parameter name="Circling Speed" type="string" val="100" />
@@ -1196,4 +1199,5 @@
     <SpawnerItem display_name="Raft Sail" path="Data/Objects/WaterProps/RaftSail.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/RaftSail.png" />
     <SpawnerItem display_name="Drika Hotspot (dev)" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/Textures/drika_hotspot.png" />
     <SpawnerItem display_name="Drika Hotspot" path="Data/Objects/Hotspots/drika_hotspot.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
+    <SpawnerItem display_name="Thick Tan Rug" path="Data/Objects/Decals/rugs/thick_tan_rug.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/thick_tan_rug.png" />
 </RecentItems>
