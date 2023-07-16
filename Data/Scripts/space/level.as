@@ -77,3 +77,15 @@ void UpdateAsteroids(){
 	
 	time += time_step;
 }
+
+void ReceiveMessage(string msg) {
+    TokenIterator token_iter;
+    token_iter.Init();
+    if(!token_iter.FindNextToken(msg)){
+        return;
+    }
+    string token = token_iter.GetToken(msg);
+    if(token == "go_to_main_menu"){
+        SetGravity(-9.8);
+    }
+}
