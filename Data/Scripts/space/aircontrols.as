@@ -2,8 +2,8 @@
 #include "ledgegrab.as"
 
 const float _jump_fuel_burn = 10.0f; // multiplier for amount of fuel lost per time_step
-const float _jump_fuel = 2.0f; // used to set the amount of fuel available at the start of a jump
-const float _air_control = 1.0f; // multiplier for the amount of directional control available while in the air
+float _jump_fuel = 2.0f; // used to set the amount of fuel available at the start of a jump
+float _air_control = 1.0f; // multiplier for the amount of directional control available while in the air
 const float _jump_vel = 2.0f; // y-axis (up) velocity of jump used in GetJumpVelocity()
 const float _jump_threshold_time = 0.1f; // time that must pass before a new jump, used in aschar.as
 const float _jump_launch_decay = 2.0f;
@@ -40,6 +40,14 @@ class JumpInfo {
         hit_wall = false;
         left_foot_jump = false;
         to_jump_with_left = false;
+    }
+    
+    void SetJumpFuel(float val){
+        _jump_fuel = val;
+    }
+
+    void SetAirControl(float val){
+        _air_control = val;
     }
 
     bool ClimbedUp() {

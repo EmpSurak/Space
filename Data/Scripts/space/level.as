@@ -87,5 +87,11 @@ void ReceiveMessage(string msg) {
     string token = token_iter.GetToken(msg);
     if(token == "go_to_main_menu"){
         SetGravity(-9.8);
+    }else if(token == "improvement_one"){
+        MovementObject@ player_mo = ReadCharacter(0); // TODO: get player by name
+        player_mo.Execute("jump_info.SetJumpFuel(4.0f);jump_info.SetAirControl(2.0f);");
+    }else if(token == "improvement_two"){
+        MovementObject@ player_mo = ReadCharacter(0); // TODO: get player by name
+        player_mo.Execute("jump_info.SetJumpFuel(6.0f);jump_info.SetAirControl(4.0f);");
     }
 }
