@@ -48,7 +48,7 @@
     <RayToSun r0="0.272143" r1="0.241569" r2="0.931441" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="112.793" t1="620.913" t2="14.2995" s0="1" s1="1" s2="1" q0="-0.117413" q1="0.0166839" q2="-0.0019728" q3="-0.992941" euler_x="0.235402" euler_y="-0.0336019" euler_z="0" id="0">
+    <CameraObject t0="99.4586" t1="618.601" t2="7.17229" s0="1" s1="1" s2="1" q0="0.0193687" q1="0.771714" q2="-0.0235298" q3="0.635239" euler_x="-3.08063" euler_y="1.3774" euler_z="3.14159" id="0">
         <parameters />
     </CameraObject>
     <Group t0="21.8046" t1="29.1463" t2="19.6599" s0="1274.33" s1="1287.61" s2="1270.01" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1" version="1">
@@ -537,7 +537,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject name="Oxygen Detached" t0="3.89933" t1="615.916" t2="3.02076" s0="0.856682" s1="0.856682" s2="0.856682" q0="-0.102621" q1="0.0850497" q2="-0.975352" q3="-0.175873" euler_x="-0.133788" euler_y="-0.232179" euler_z="2.80042" id="131" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_Vessel.xml">
+    <EnvObject name="Oxygen Detached" t0="3.89933" t1="615.916" t2="3.02076" s0="0.856682" s1="0.856682" s2="0.856682" q0="-0.102621" q1="0.0850497" q2="-0.975352" q3="-0.175873" euler_x="-0.133788" euler_y="-0.232179" euler_z="2.80042" id="131" color_r="2" color_g="2" color_b="2" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_Vessel.xml">
         <parameters />
     </EnvObject>
     <Hotspot name="Oxygen Pickup" t0="3.69217" t1="616.202" t2="2.83376" s0="0.329119" s1="0.30128" s2="0.362568" q0="0" q1="-0.139011" q2="0" q3="0.990291" euler_x="0" euler_y="-0.278925" euler_z="0" id="132" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
@@ -658,7 +658,7 @@
     <EnvObject t0="-225.438" t1="569.518" t2="-4.47483" s0="4.99424" s1="10.5707" s2="4.99423" q0="0.124496" q1="-0.0591956" q2="-0.964936" q3="0.223353" euler_x="0.174762" euler_y="0.215482" euler_z="-2.66771" id="156" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Spaceships/Spaceship.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="188.012" t1="800" t2="-68.2024" s0="6" s1="6" s2="6" q0="9.01278e-005" q1="-0.00157106" q2="1.10383" q3="-0.0104935" euler_x="-0.00347027" euler_y="-0.000166001" euler_z="-3.12547" id="157" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_small.xml">
+    <EnvObject t0="180.414" t1="800" t2="86.3185" s0="6" s1="6" s2="6" q0="0.00114751" q1="-0.000369877" q2="0.408404" q3="-1.026" euler_x="-0.0026568" euler_y="-0.00017831" euler_z="-0.89899" id="157" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_small.xml">
         <parameters>
             <parameter name="Circling Radius" type="string" val="200" />
             <parameter name="Circling Speed" type="string" val="150" />
@@ -668,7 +668,7 @@
             <parameter name="Rotating" type="string" val="-0.1" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="260.373" t1="600" t2="-965.508" s0="15" s1="15" s2="15" q0="0.000849128" q1="0.000461563" q2="0.167136" q3="1.03419" euler_x="0.00191061" euler_y="0.000670849" euler_z="0.350998" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_large.xml">
+    <EnvObject t0="993.278" t1="600" t2="-115.752" s0="15" s1="15" s2="15" q0="0.000494614" q1="-0.000982165" q2="-1.03135" q3="0.185206" euler_x="0.00220913" euler_y="0.000656438" euler_z="-2.81487" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_large.xml">
         <parameters>
             <parameter name="Circling Radius" type="string" val="1000" />
             <parameter name="Circling Speed" type="string" val="100" />
@@ -753,7 +753,7 @@
     <EnvObject name="Sword 1" t0="-85.1386" t1="568.807" t2="238.113" s0="0.434032" s1="0.434032" s2="0.434032" q0="0.997273" q1="-0.0247781" q2="0.0695303" q3="-0.00162248" euler_x="-3.13485" euler_y="-0.139049" euler_z="-0.0501515" id="179" color_r="1" color_g="1" color_b="1" overbright="20" type_file="Data/Objects/quaternius/Ultimate_RPG_Items_Pack/Sword_big.xml">
         <parameters />
     </EnvObject>
-    <EnvObject name="Input Prompt Helper" t0="108.992" t1="617.702" t2="7.02811" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="180" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+    <EnvObject name="Input Prompt Helper" t0="108.992" t1="617.702" t2="7.8531" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="180" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
     <EnvObject name="Input Prompt Helper" t0="128.143" t1="593.523" t2="94.9652" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="181" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
