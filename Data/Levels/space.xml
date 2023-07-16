@@ -35,7 +35,7 @@
     <parameter name="Level Boundaries" type="int" val="0" />
     <parameter name="Load Tip" type="string" val="" />
     <parameter name="Objectives" type="string" val="destroy_all" />
-    <parameter name="Saturation" type="float" val="0" />
+    <parameter name="Saturation" type="float" val="0.75" />
     <parameter name="Sky Brightness" type="float" val="1" />
     <parameter name="Sky Rotation" type="float" val="0" />
     <parameter name="Sky Tint" type="string" val="255, 255, 255" />
@@ -48,7 +48,7 @@
     <RayToSun r0="0.272143" r1="0.241569" r2="0.931441" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-114.541" t1="580.191" t2="181.688" s0="1" s1="1" s2="1" q0="0.169659" q1="-0.295202" q2="0.0533523" q3="0.938736" euler_x="0.357602" euler_y="-0.609354" euler_z="0" id="0">
+    <CameraObject t0="112.793" t1="620.913" t2="14.2995" s0="1" s1="1" s2="1" q0="-0.117413" q1="0.0166839" q2="-0.0019728" q3="-0.992941" euler_x="0.235402" euler_y="-0.0336019" euler_z="0" id="0">
         <parameters />
     </CameraObject>
     <Group t0="21.8046" t1="29.1463" t2="19.6599" s0="1274.33" s1="1287.61" s2="1270.01" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1" version="1">
@@ -540,7 +540,7 @@
     <EnvObject name="Oxygen Detached" t0="3.89933" t1="615.916" t2="3.02076" s0="0.856682" s1="0.856682" s2="0.856682" q0="-0.102621" q1="0.0850497" q2="-0.975352" q3="-0.175873" euler_x="-0.133788" euler_y="-0.232179" euler_z="2.80042" id="131" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_Vessel.xml">
         <parameters />
     </EnvObject>
-    <Hotspot name="Oxygen Pickup" t0="3.69217" t1="616.202" t2="3.05164" s0="0.329119" s1="0.30128" s2="0.25363" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="132" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+    <Hotspot name="Oxygen Pickup" t0="3.69217" t1="616.202" t2="2.83376" s0="0.329119" s1="0.30128" s2="0.362568" q0="0" q1="-0.139011" q2="0" q3="0.990291" euler_x="0" euler_y="-0.278925" euler_z="0" id="132" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
         <parameters>
             <parameter name="Debug Current Line" type="int" val="0" />
             <parameter name="Run in EditorMode" type="int" val="0" />
@@ -658,7 +658,7 @@
     <EnvObject t0="-225.438" t1="569.518" t2="-4.47483" s0="4.99424" s1="10.5707" s2="4.99423" q0="0.124496" q1="-0.0591956" q2="-0.964936" q3="0.223353" euler_x="0.174762" euler_y="0.215482" euler_z="-2.66771" id="156" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Spaceships/Spaceship.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="97.1349" t1="800" t2="174.828" s0="6" s1="6" s2="6" q0="-0.00207841" q1="-0.0007402" q2="0.337132" q3="1.05038" euler_x="-0.00486535" euler_y="-0.000153583" euler_z="0.741908" id="157" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_small.xml">
+    <EnvObject t0="188.012" t1="800" t2="-68.2024" s0="6" s1="6" s2="6" q0="9.01278e-005" q1="-0.00157106" q2="1.10383" q3="-0.0104935" euler_x="-0.00347027" euler_y="-0.000166001" euler_z="-3.12547" id="157" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_small.xml">
         <parameters>
             <parameter name="Circling Radius" type="string" val="200" />
             <parameter name="Circling Speed" type="string" val="150" />
@@ -668,7 +668,7 @@
             <parameter name="Rotating" type="string" val="-0.1" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="689.43" t1="600" t2="724.353" s0="15" s1="15" s2="15" q0="-0.000161007" q1="0.000771046" q2="1.02495" q3="0.214484" euler_x="0.00151151" euler_y="0.000660804" euler_z="2.76168" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_large.xml">
+    <EnvObject t0="260.373" t1="600" t2="-965.508" s0="15" s1="15" s2="15" q0="0.000849128" q1="0.000461563" q2="0.167136" q3="1.03419" euler_x="0.00191061" euler_y="0.000670849" euler_z="0.350998" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_large.xml">
         <parameters>
             <parameter name="Circling Radius" type="string" val="1000" />
             <parameter name="Circling Speed" type="string" val="100" />
@@ -711,7 +711,7 @@
     <EnvObject t0="98.0341" t1="611.466" t2="4.64049" s0="17.1536" s1="17.1536" s2="17.1536" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="169" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Ultimate_Modular_Sci-Fi/Props_Vessel_Short.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="108.972" t1="618.659" t2="4.8226" s0="2.67011" s1="2.67011" s2="2.67011" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="170" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/scifihex/pyramid.xml">
+    <EnvObject t0="108.972" t1="618.659" t2="4.8226" s0="2.67011" s1="2.67011" s2="2.67011" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="170" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Custom/FnB/Objects/Simple Shapes/scifihex/pyramid.xml">
         <parameters />
     </EnvObject>
     <Decal t0="108.954" t1="617.738" t2="7.0073" s0="2.46273" s1="2.46273" s2="2.46273" q0="0.576429" q1="0" q2="0" q3="0.817147" euler_x="1.2287" euler_y="0" euler_z="0" id="171" type_file="Data/Objects/therium/Decals/cavepaintings/uridranvaldran.xml" color_r="0.65098" color_g="0.0612687" color_b="0.0612687" overbright="0">
@@ -721,7 +721,7 @@
         <parameters>
             <parameter name="Debug Current Line" type="int" val="0" />
             <parameter name="Run in EditorMode" type="int" val="1" />
-            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Magnifier Boundary&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Magnifier Goal&quot;,&quot;identifier_type&quot;:3},{&quot;check_all&quot;:false,&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:2,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;reference_string&quot;:&quot;&quot;,&quot;reset_when_false&quot;:false},{&quot;bounding_box&quot;:[1,1,1],&quot;custom_prompt&quot;:false,&quot;function&quot;:26,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;input_count&quot;:1,&quot;input_identifier&quot;:10,&quot;input_mode&quot;:0,&quot;input_type&quot;:0,&quot;inputline0&quot;:2,&quot;multi_input_buttons&quot;:[0],&quot;multi_input_others&quot;:[&quot;w&quot;],&quot;multi_input_type&quot;:0,&quot;multi_input_types&quot;:[0],&quot;placeholder_id&quot;:180,&quot;prompt_size&quot;:0.25,&quot;use_prompt&quot;:true},{&quot;dialogue_function&quot;:11,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;dialogue_control&quot;:true,&quot;dialogue_function&quot;:13,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[108.66513824462891,617.10223388671875,8.118412971496582],&quot;target_actor_rotation&quot;:92},{&quot;dialogue_function&quot;:10,&quot;dialogue_layout&quot;:1,&quot;dialogue_location&quot;:0,&quot;dialogue_text_color&quot;:[1,1,1,1],&quot;dialogue_text_font&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;dialogue_text_shadow&quot;:true,&quot;dialogue_text_size&quot;:40,&quot;dialogue_text_speed&quot;:50,&quot;function&quot;:33,&quot;show_avatar&quot;:false,&quot;show_names&quot;:false,&quot;use_voice_sounds&quot;:true},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;\&quot;Another sunrise lights the moon,\nThe morning rays collect in glass.\nSeek the treasure upon the dunes,\nThrough which the light may freely pass.\&quot;&quot;,&quot;voice_over_path&quot;:&quot;&quot;},{&quot;dialogue_function&quot;:12,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Magnifier Goal&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Boundary&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Magnifier Boundary&quot;,&quot;identifier_type&quot;:3},{&quot;checkpoint_mode&quot;:0,&quot;function&quot;:37}]}&#x0A;' />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Magnifier Boundary&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Magnifier Goal&quot;,&quot;identifier_type&quot;:3},{&quot;check_all&quot;:false,&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:2,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;reference_string&quot;:&quot;&quot;,&quot;reset_when_false&quot;:false},{&quot;bounding_box&quot;:[1,1,1],&quot;custom_prompt&quot;:false,&quot;function&quot;:26,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;input_count&quot;:1,&quot;input_identifier&quot;:10,&quot;input_mode&quot;:0,&quot;input_type&quot;:0,&quot;inputline0&quot;:2,&quot;multi_input_buttons&quot;:[0],&quot;multi_input_others&quot;:[&quot;w&quot;],&quot;multi_input_type&quot;:0,&quot;multi_input_types&quot;:[0],&quot;placeholder_id&quot;:180,&quot;prompt_size&quot;:0.25,&quot;use_prompt&quot;:true},{&quot;dialogue_function&quot;:11,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;dialogue_control&quot;:true,&quot;dialogue_function&quot;:13,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[108.66513824462891,617.10223388671875,8.118412971496582],&quot;target_actor_rotation&quot;:92},{&quot;dialogue_function&quot;:10,&quot;dialogue_layout&quot;:1,&quot;dialogue_location&quot;:0,&quot;dialogue_text_color&quot;:[1,1,1,1],&quot;dialogue_text_font&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;dialogue_text_shadow&quot;:true,&quot;dialogue_text_size&quot;:40,&quot;dialogue_text_speed&quot;:50,&quot;function&quot;:33,&quot;show_avatar&quot;:false,&quot;show_names&quot;:false,&quot;use_voice_sounds&quot;:true},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;A riddle.[wait 1]\n\n\&quot;Another sunrise lights the moon,\nThe morning rays collect in glass.\nSeek the treasure upon the dunes,\nThrough which the light may freely pass.\&quot;&quot;,&quot;voice_over_path&quot;:&quot;&quot;},{&quot;dialogue_function&quot;:12,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Magnifier Goal&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Pyramid Boundary&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Magnifier Boundary&quot;,&quot;identifier_type&quot;:3},{&quot;checkpoint_mode&quot;:0,&quot;function&quot;:37}]}&#x0A;' />
             <parameter name="Show UI Grid" type="int" val="1" />
             <parameter name="Transform Relative" type="int" val="0" />
             <parameter name="UI Snap Scale" type="int" val="20" />
@@ -957,13 +957,13 @@
     <EnvObject name="Input Prompt Helper" t0="-116.369" t1="576.434" t2="177.738" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="227" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
-    <DynamicLightObject t0="108.596" t1="620.342" t2="8.92741" s0="7.56083" s1="7.56083" s2="7.56083" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="228" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
+    <DynamicLightObject t0="108.897" t1="622.215" t2="4.90267" s0="9.77802" s1="9.77802" s2="9.77802" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="228" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
         <parameters />
     </DynamicLightObject>
     <DynamicLightObject t0="128.525" t1="595.54" t2="95.4059" s0="7.56083" s1="7.56083" s2="7.56083" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="229" color_r="11.5" color_g="11.5" color_b="11.5" overbright="1">
         <parameters />
     </DynamicLightObject>
-    <EnvObject name="Cloth 1" t0="12.9974" t1="610.052" t2="73.7674" s0="3.001" s1="3.001" s2="4.66039" q0="0" q1="0" q2="-0.722006" q3="0.691887" euler_x="0" euler_y="0" euler_z="-1.61339" id="230" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/WaterProps/RaftSail.xml">
+    <EnvObject name="Cloth 1" t0="12.9974" t1="610.052" t2="73.7674" s0="3.001" s1="3.001" s2="4.66039" q0="0" q1="0" q2="-0.722006" q3="0.691887" euler_x="0" euler_y="0" euler_z="-1.61339" id="230" color_r="1" color_g="1" color_b="1" overbright="15" type_file="Data/Objects/WaterProps/RaftSail.xml">
         <parameters />
     </EnvObject>
     <Hotspot name="Cloth Goal 1" t0="12.7725" t1="610.937" t2="73.4627" s0="1.27032" s1="0.727586" s2="2.18124" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="231" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
@@ -1102,13 +1102,13 @@
     </EnvObject>
     <Group name="Sticks 2" t0="66.8573" t1="596.652" t2="130.349" s0="2.49537" s1="1.7744" s2="2.3875" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="260" version="1">
         <parameters />
-        <EnvObject t0="67.0126" t1="596.113" t2="130.847" s0="1" s1="1" s2="1" q0="-0.538963" q1="0.219633" q2="0.269399" q3="0.767271" euler_x="-1.14369" euler_y="0.678246" euler_z="0.22886" id="261" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Environment/camp/stick.xml">
+        <EnvObject t0="67.0126" t1="596.113" t2="130.847" s0="1" s1="1" s2="1" q0="-0.538963" q1="0.219633" q2="0.269399" q3="0.767271" euler_x="-1.14369" euler_y="0.678246" euler_z="0.22886" id="261" color_r="1" color_g="1" color_b="1" overbright="15" type_file="Data/Objects/Environment/camp/stick.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="67.8767" t1="596.652" t2="129.934" s0="1" s1="1" s2="1" q0="0.0332755" q1="-0.356763" q2="-0.0922868" q3="0.92903" euler_x="0.170127" euler_y="-0.716495" euler_z="-0.261852" id="262" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Environment/camp/stick.xml">
+        <EnvObject t0="67.8767" t1="596.652" t2="129.934" s0="1" s1="1" s2="1" q0="0.0332755" q1="-0.356763" q2="-0.0922868" q3="0.92903" euler_x="0.170127" euler_y="-0.716495" euler_z="-0.261852" id="262" color_r="1" color_g="1" color_b="1" overbright="15" type_file="Data/Objects/Environment/camp/stick.xml">
             <parameters />
         </EnvObject>
-        <EnvObject t0="66.3744" t1="596.702" t2="129.279" s0="1" s1="1" s2="1" q0="-0.308127" q1="-0.648647" q2="-0.334779" q3="0.610113" euler_x="2.06429" euler_y="-1.50453" euler_z="-3.0087" id="263" color_r="1" color_g="1" color_b="1" overbright="10" type_file="Data/Objects/Environment/camp/stick.xml">
+        <EnvObject t0="66.3744" t1="596.702" t2="129.279" s0="1" s1="1" s2="1" q0="-0.308127" q1="-0.648647" q2="-0.334779" q3="0.610113" euler_x="2.06429" euler_y="-1.50453" euler_z="-3.0087" id="263" color_r="1" color_g="1" color_b="1" overbright="15" type_file="Data/Objects/Environment/camp/stick.xml">
             <parameters />
         </EnvObject>
     </Group>
