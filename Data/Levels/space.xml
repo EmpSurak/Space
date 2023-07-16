@@ -35,7 +35,7 @@
     <parameter name="Level Boundaries" type="int" val="0" />
     <parameter name="Load Tip" type="string" val="" />
     <parameter name="Objectives" type="string" val="destroy_all" />
-    <parameter name="Saturation" type="float" val="0.75" />
+    <parameter name="Saturation" type="float" val="0" />
     <parameter name="Sky Brightness" type="float" val="1" />
     <parameter name="Sky Rotation" type="float" val="0" />
     <parameter name="Sky Tint" type="string" val="255, 255, 255" />
@@ -48,7 +48,7 @@
     <RayToSun r0="0.272143" r1="0.241569" r2="0.931441" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="90.492" t1="617.96" t2="4.13687" s0="1" s1="1" s2="1" q0="-0.319261" q1="0.509299" q2="-0.210938" q3="-0.770839" euler_x="0.785329" euler_y="-1.16773" euler_z="0" id="0">
+    <CameraObject t0="78.3058" t1="616.568" t2="9.14094" s0="1" s1="1" s2="1" q0="0.412389" q1="-0.398636" q2="0.207447" q3="0.792458" euler_x="0.959655" euler_y="-0.93215" euler_z="0" id="0">
         <parameters />
     </CameraObject>
     <Group t0="21.8046" t1="29.1463" t2="19.6599" s0="1274.33" s1="1287.61" s2="1270.01" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1" version="1">
@@ -658,7 +658,7 @@
     <EnvObject t0="-225.438" t1="569.518" t2="-4.47483" s0="4.99424" s1="10.5707" s2="4.99423" q0="0.124496" q1="-0.0591956" q2="-0.964936" q3="0.223353" euler_x="0.174762" euler_y="0.215482" euler_z="-2.66771" id="156" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/quaternius/Spaceships/Spaceship.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="144.184" t1="800" t2="-138.604" s0="6" s1="6" s2="6" q0="0.000278354" q1="0.000257254" q2="-0.634625" q3="-0.904758" euler_x="-0.000830205" euler_y="-0.000112204" euler_z="1.40302" id="157" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_small.xml">
+    <EnvObject t0="108.714" t1="800" t2="-167.873" s0="6" s1="6" s2="6" q0="0.000225425" q1="0.000312686" q2="0.996942" q3="0.478799" euler_x="0.000839326" euler_y="-0.000150044" euler_z="2.37324" id="157" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_small.xml">
         <parameters>
             <parameter name="Circling Radius" type="string" val="200" />
             <parameter name="Circling Speed" type="string" val="150" />
@@ -668,7 +668,7 @@
             <parameter name="Rotating" type="string" val="-0.1" />
         </parameters>
     </EnvObject>
-    <EnvObject t0="-355.179" t1="600" t2="-934.798" s0="15" s1="15" s2="15" q0="-0.00122875" q1="0.000399232" q2="0.568206" q3="-0.88101" euler_x="0.00261878" euler_y="0.000692911" euler_z="-1.23069" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_large.xml">
+    <EnvObject t0="-650.901" t1="600" t2="-759.162" s0="15" s1="15" s2="15" q0="0.000187986" q1="-0.00138497" q2="-1.04385" q3="-0.102721" euler_x="0.00285279" euler_y="0.000676989" euler_z="2.96171" id="158" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/Rocks/plain_rock_large.xml">
         <parameters>
             <parameter name="Circling Radius" type="string" val="1000" />
             <parameter name="Circling Speed" type="string" val="100" />
@@ -831,11 +831,11 @@
             <parameters />
         </EnvObject>
     </Group>
-    <Hotspot name="Rope Goal 2" t0="75.5643" t1="610.97" t2="6.42861" s0="1.27032" s1="0.727586" s2="0.74354" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="200" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+    <Hotspot name="Rope Goal 2" t0="74.9413" t1="610.132" t2="6.35831" s0="1.27032" s1="0.727586" s2="0.74354" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="200" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
         <parameters>
             <parameter name="Debug Current Line" type="int" val="0" />
             <parameter name="Run in EditorMode" type="int" val="0" />
-            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Rope 2&quot;,&quot;identifier_type&quot;:3},{&quot;check_all&quot;:false,&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:2,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;reference_string&quot;:&quot;&quot;,&quot;reset_when_false&quot;:false},{&quot;bounding_box&quot;:[1,1,1],&quot;custom_prompt&quot;:false,&quot;function&quot;:26,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;input_count&quot;:1,&quot;input_identifier&quot;:10,&quot;input_mode&quot;:0,&quot;input_type&quot;:0,&quot;inputline0&quot;:0,&quot;multi_input_buttons&quot;:[0],&quot;multi_input_others&quot;:[&quot;w&quot;],&quot;multi_input_type&quot;:0,&quot;multi_input_types&quot;:[0],&quot;placeholder_id&quot;:205,&quot;prompt_size&quot;:0.25,&quot;use_prompt&quot;:true},{&quot;dialogue_function&quot;:11,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;dialogue_function&quot;:10,&quot;dialogue_layout&quot;:1,&quot;dialogue_location&quot;:0,&quot;dialogue_text_color&quot;:[1,1,1,1],&quot;dialogue_text_font&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;dialogue_text_shadow&quot;:true,&quot;dialogue_text_size&quot;:40,&quot;dialogue_text_speed&quot;:50,&quot;function&quot;:33,&quot;show_avatar&quot;:false,&quot;show_names&quot;:false,&quot;use_voice_sounds&quot;:true},{&quot;dialogue_control&quot;:true,&quot;dialogue_function&quot;:13,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[94.226516723632813,597.20458984375,103.75383758544922],&quot;target_actor_rotation&quot;:-122},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[93.240142822265625,600.14581298828125,106.59214782714844],&quot;target_camera_rotation&quot;:[-52.666267395019531,0,0],&quot;target_camera_zoom&quot;:90},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;Rope.&quot;,&quot;voice_over_path&quot;:&quot;&quot;},{&quot;dialogue_function&quot;:12,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Rope 2&quot;,&quot;identifier_type&quot;:3},{&quot;function&quot;:10,&quot;level_message_type&quot;:0,&quot;message&quot;:&quot;tent_part&quot;},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Rope Goal 1&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Rope Goal 3&quot;,&quot;identifier_type&quot;:3}]}&#x0A;' />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Rope 2&quot;,&quot;identifier_type&quot;:3},{&quot;check_all&quot;:false,&quot;external_hotspot&quot;:false,&quot;function&quot;:8,&quot;hotspot_trigger_type&quot;:2,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;reference_string&quot;:&quot;&quot;,&quot;reset_when_false&quot;:false},{&quot;bounding_box&quot;:[1,1,1],&quot;custom_prompt&quot;:false,&quot;function&quot;:26,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;input_count&quot;:1,&quot;input_identifier&quot;:10,&quot;input_mode&quot;:0,&quot;input_type&quot;:0,&quot;inputline0&quot;:0,&quot;multi_input_buttons&quot;:[0],&quot;multi_input_others&quot;:[&quot;w&quot;],&quot;multi_input_type&quot;:0,&quot;multi_input_types&quot;:[0],&quot;placeholder_id&quot;:205,&quot;prompt_size&quot;:0.25,&quot;use_prompt&quot;:true},{&quot;dialogue_function&quot;:11,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;dialogue_function&quot;:10,&quot;dialogue_layout&quot;:1,&quot;dialogue_location&quot;:0,&quot;dialogue_text_color&quot;:[1,1,1,1],&quot;dialogue_text_font&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;dialogue_text_shadow&quot;:true,&quot;dialogue_text_size&quot;:40,&quot;dialogue_text_speed&quot;:50,&quot;function&quot;:33,&quot;show_avatar&quot;:false,&quot;show_names&quot;:false,&quot;use_voice_sounds&quot;:true},{&quot;dialogue_control&quot;:true,&quot;dialogue_function&quot;:13,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[75.866065979003906,610.10516357421875,5.9147987365722656],&quot;target_actor_rotation&quot;:-161},{&quot;add_camera_shake&quot;:false,&quot;camera_transition&quot;:0,&quot;dialogue_function&quot;:8,&quot;dof_settings&quot;:[0,0,0,0,0,0],&quot;enable_look_at_target&quot;:false,&quot;enable_move_with_target&quot;:false,&quot;function&quot;:33,&quot;target_camera_position&quot;:[77.270729064941406,614.74737548828125,10.307486534118652],&quot;target_camera_rotation&quot;:[-51.758125305175781,16.078319549560547,-12.755260467529297],&quot;target_camera_zoom&quot;:90},{&quot;auto_continue&quot;:false,&quot;dialogue_function&quot;:0,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Astro&quot;,&quot;identifier_type&quot;:3,&quot;say_text&quot;:&quot;Rope.&quot;,&quot;voice_over_path&quot;:&quot;&quot;},{&quot;dialogue_function&quot;:12,&quot;function&quot;:33,&quot;use_fade&quot;:true},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Rope 2&quot;,&quot;identifier_type&quot;:3},{&quot;function&quot;:10,&quot;level_message_type&quot;:0,&quot;message&quot;:&quot;tent_part&quot;},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Roap Goal 1&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Roap Goal 3&quot;,&quot;identifier_type&quot;:3}]}&#x0A;' />
             <parameter name="Show UI Grid" type="int" val="1" />
             <parameter name="Transform Relative" type="int" val="0" />
             <parameter name="UI Snap Scale" type="int" val="20" />
@@ -855,7 +855,7 @@
             <parameters />
         </EnvObject>
     </Group>
-    <EnvObject name="Input Prompt Helper" t0="74.7223" t1="610.545" t2="6.59322" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="205" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+    <EnvObject name="Input Prompt Helper" t0="74.6831" t1="610.766" t2="6.29611" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="205" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
     <Hotspot name="Rope Goal 3" t0="18.2214" t1="605.483" t2="106.313" s0="1.27032" s1="0.727586" s2="0.74354" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="206" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
