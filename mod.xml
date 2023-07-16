@@ -8,12 +8,13 @@
     <Thumbnail>Data/Images/space/thumb.jpg</Thumbnail>
     <PreviewImage>Data/Images/space/thumb.jpg</PreviewImage>
 
-    <Description>Space</Description>
+    <Description>A scavenger hunt in space!</Description>
     <Version>0.0.1</Version>
     <Author>Egggbeater and Surak</Author>
     <Tag>Scripting</Tag>
     <Tag>Level</Tag>
     <Tag>Scavenger Hunt</Tag>
+    <Tag>July2023Jam</Tag>
 
     <SupportedVersion>*</SupportedVersion>
     <NeedsRestart>false</NeedsRestart>
