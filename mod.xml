@@ -1,7 +1,7 @@
 <? xml version="1.0" ?>
 <Mod>
     <Id>com-surak-space</Id> 
-    <Name>Space</Name> 
+    <Name>The Hunt</Name> 
 
     <Category>Level</Category>
 
@@ -10,17 +10,13 @@
 
     <Description>Space</Description>
     <Version>0.0.1</Version>
-    <Author>Surak</Author>
+    <Author>Egggbeater and Surak</Author>
     <Tag>Scripting</Tag>
     <Tag>Level</Tag>
+    <Tag>Scavenger Hunt</Tag>
 
     <SupportedVersion>*</SupportedVersion>
     <NeedsRestart>false</NeedsRestart>
-
-    <ModDependency>
-       <Id>com-surak-timed-execution</Id>
-       <Version>1.0.0</Version> 
-    </ModDependency>
 
     <ModDependency>
        <Id>drika-hotspot</Id>
@@ -30,6 +26,11 @@
     <ModDependency>
        <Id>simple-shapes</Id>
        <Version>1.0</Version> 
+    </ModDependency>
+
+    <ModDependency>
+       <Id>quaternius-assets</Id>
+       <Version>0.1.0</Version> 
     </ModDependency>
 
     <Level title="Space" thumbnail="UI/mainmenu/images/space.png">space.xml</Level>
